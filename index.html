@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Case Formulation — Reading Edition v0.17</title>
+  <style>
+    :root {
+      font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+      color-scheme: light dark;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: Canvas;
+      color: CanvasText;
+    }
+    main {
+      width: min(44rem, calc(100% - 2rem));
+      padding: 2rem;
+      border: 1px solid color-mix(in srgb, CanvasText 18%, transparent);
+      border-radius: .75rem;
+    }
+    h1 { margin-top: 0; font: 600 1.25rem/1.25 ui-sans-serif, system-ui, sans-serif; }
+    p { line-height: 1.55; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .status { opacity: .72; }
+    .error { color: #b42318; white-space: pre-wrap; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <main id="loader" aria-live="polite">
+    <h1>Case Formulation — Reading Edition v0.17</h1>
+    <p class="status" id="status">Loading the lossless source and verifying document integrity…</p>
+    <noscript>
+      <p>This reader requires JavaScript to reconstruct the preserved original HTML.</p>
+      <p><a href="./case_reader_edition_v017_lossless.md">Open the lossless Markdown source</a></p>
+    </noscript>
+  </main>
+
+  <script>
+  (() => {
+    "use strict";
+
+    const SOURCE = "./case_reader_edition_v017_lossless.md";
+    const APPENDIX_HEADING = "## Verbatim original HTML source";
+    const FENCE = String.fromCharCode(96).repeat(4);
+    const OPEN_FENCE = FENCE + "html";
+    const EXPECTED_SHA256 = "2cf37fcd90a4f2a15c354381479d8b0bc9fd93ea4b9334b761a8a77851b31196";
+
+    const status = document.getElementById("status");
+    const loader = document.getElementById("loader");
+
+    function fail(message, detail) {
+      document.title = "Unable to load preserved case";
+      status.textContent = message;
+      status.className = "error";
+
+      if (detail) {
+        const pre = document.createElement("pre");
+        pre.className = "error";
+        pre.textContent = String(detail);
+        loader.appendChild(pre);
+      }
+
+      const p = document.createElement("p");
+      const a = document.createElement("a");
+      a.href = SOURCE;
+      a.textContent = "Open the lossless Markdown source";
+      p.appendChild(a);
+      loader.appendChild(p);
+    }
+
+    async function sha256(text) {
+      const bytes = new TextEncoder().encode(text);
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(digest))
+        .map(byte => byte.toString(16).padStart(2, "0"))
+        .join("");
+    }
+
+    function extractCandidates(markdown) {
+      const marker = markdown.indexOf(APPENDIX_HEADING);
+      if (marker < 0) {
+        throw new Error("Verbatim HTML appendix heading was not found.");
+      }
+
+      const open = markdown.indexOf(OPEN_FENCE, marker);
+      if (open < 0) {
+        throw new Error("Opening HTML preservation fence was not found.");
+      }
+
+      const firstLineBreak = markdown.indexOf("\n", open);
+      if (firstLineBreak < 0) {
+        throw new Error("Opening HTML preservation fence is incomplete.");
+      }
+
+      const sourceStart = firstLineBreak + 1;
+      const close = markdown.lastIndexOf("\n" + FENCE);
+      if (close < sourceStart) {
+        throw new Error("Closing HTML preservation fence was not found.");
+      }
+
+      return [
+        markdown.slice(sourceStart, close),
+        markdown.slice(sourceStart, close + 1)
+      ];
+    }
+
+    async function load() {
+      try {
+        const response = await fetch(SOURCE, { cache: "no-cache" });
+        if (!response.ok) {
+          throw new Error("HTTP " + response.status + " while reading " + SOURCE);
+        }
+
+        const markdown = await response.text();
+        const candidates = extractCandidates(markdown);
+
+        status.textContent = "Checking source fidelity…";
+
+        let originalHtml = null;
+        for (const candidate of candidates) {
+          if (await sha256(candidate) === EXPECTED_SHA256) {
+            originalHtml = candidate;
+            break;
+          }
+        }
+
+        if (originalHtml === null) {
+          throw new Error(
+            "Integrity check failed. The preserved HTML does not match the " +
+            "recorded SHA-256, so the site has deliberately refused to render it."
+          );
+        }
+
+        status.textContent = "Integrity verified. Opening reading edition…";
+
+        document.open();
+        document.write(originalHtml);
+        document.close();
+      } catch (error) {
+        fail(
+          "The preserved reading edition could not be reconstructed safely.",
+          error && error.message ? error.message : error
+        );
+      }
+    }
+
+    load();
+  })();
+  </script>
+</body>
+</html>
