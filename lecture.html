@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#1769ff">
+<meta name="description" content="Case Readable lecture reader.">
+<title>Case Readable — Lecture</title>
+<style>
+:root{
+  --blue:#1769ff;--red:#ff3b30;--yellow:#ffd93d;--cream:#fffaf0;--ink:#152033;--soft:#5d6778;--white:#fff;
+  --rule:#dfe3eb;--sans:ui-rounded,"SF Pro Rounded","Avenir Next",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:#eef4ff}
+body{margin:0;color:var(--ink);font:18px/1.75 var(--serif);background:linear-gradient(90deg,#eef4ff 0 18%,#fff 18% 82%,#fff4dd 82%)}
+a{color:inherit}
+.shell{display:grid;grid-template-columns:260px minmax(0,850px);gap:26px;max-width:1190px;margin:auto;padding:18px 18px 70px}
+.side{
+  position:sticky;top:18px;align-self:start;max-height:calc(100vh - 36px);overflow:auto;
+  border:3px solid var(--ink);border-radius:24px;background:var(--yellow);padding:20px;box-shadow:7px 7px 0 var(--ink);
+  font-family:var(--sans);
+}
+.home{display:inline-block;font-weight:1000;text-decoration:none;margin-bottom:18px}
+.badge{display:inline-block;padding:7px 10px;border:3px solid var(--ink);border-radius:999px;background:var(--white);font-size:10px;font-weight:1000;text-transform:uppercase;letter-spacing:.08em}
+.side h2{font:1000 31px/1 var(--sans);letter-spacing:-.04em;margin:14px 0 11px}
+.side p{font:650 12px/1.5 var(--sans);color:#333;margin:0 0 18px}
+.switch{display:grid;gap:9px;margin:18px 0;border-top:2px solid var(--ink);padding-top:17px}
+.switch a{display:block;padding:11px 12px;border:2px solid var(--ink);border-radius:13px;background:var(--white);text-decoration:none;font-size:11px;font-weight:950}
+.switch a.active{background:var(--blue);color:var(--white)}
+.toc{border-top:2px solid var(--ink);padding-top:14px}
+.toc-title{font-size:9px;font-weight:1000;text-transform:uppercase;letter-spacing:.1em;margin-bottom:8px}
+.toc a{display:block;text-decoration:none;font-size:11px;line-height:1.35;padding:5px 0;color:#32394a}
+.toc a[data-level="2"]{padding-left:9px}
+.toc a[data-level="3"]{padding-left:18px;font-size:10px}
+.paper{background:var(--white);border:3px solid var(--ink);border-radius:28px;overflow:hidden;box-shadow:10px 10px 0 rgba(21,32,51,.13)}
+.hero{padding:48px 64px 34px;position:relative;overflow:hidden;border-bottom:3px solid var(--ink)}
+.hero.one{background:var(--blue);color:var(--white)}
+.hero.two{background:var(--red);color:var(--white)}
+.hero:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:26px;top:24px;background:var(--yellow);border:3px solid var(--ink)}
+.hero .mini{font:1000 11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.12em}
+.hero h1{font:1000 clamp(38px,6vw,70px)/.94 var(--sans);letter-spacing:-.055em;margin:12px 120px 9px 0}
+.hero p{font:700 15px/1.5 var(--sans);max-width:650px;margin:0;opacity:.96}
+.content{padding:44px 66px 66px}
+.content h1,.content h2,.content h3{scroll-margin-top:25px;color:var(--ink)}
+.content h1{font:900 36px/1.05 var(--sans);letter-spacing:-.04em;margin:2.1em 0 .6em}
+.content h1:first-child{margin-top:0}
+.content h2{font:900 28px/1.1 var(--sans);letter-spacing:-.035em;margin:2em 0 .65em}
+.content h3{font:900 18px/1.25 var(--sans);margin:1.8em 0 .5em}
+.content p{max-width:720px;margin:.85em 0}
+.content strong{font-weight:800}
+.content blockquote{margin:1.6em 0;padding:1em 1.25em;border:3px solid var(--ink);border-radius:16px;background:var(--yellow);font-size:18px;box-shadow:5px 5px 0 rgba(21,32,51,.12)}
+.content blockquote p{margin:.2em 0}
+.content hr{border:0;border-top:3px solid var(--ink);margin:2.7em 0}
+.content ul,.content ol{padding-left:1.35em;max-width:720px}
+.content li{margin:.38em 0}
+.content code{font:.84em ui-monospace,SFMono-Regular,Menlo,monospace;background:#f0f3f8;padding:.12em .32em;border-radius:4px}
+.content table{border-collapse:collapse;width:100%;font-size:15px;line-height:1.45;margin:1.5em 0;display:block;overflow:auto}
+.content th,.content td{border:2px solid var(--ink);padding:10px 11px;vertical-align:top}
+.content th{background:var(--yellow);font-family:var(--sans)}
+.loading{font-family:var(--sans);font-weight:800;padding:20px 0}
+.next{margin:0 66px 58px;padding:22px;border:3px solid var(--ink);border-radius:18px;background:var(--yellow);font:900 15px/1.4 var(--sans)}
+.next a{text-decoration:none}
+@media(max-width:900px){
+ body{background:#eef4ff}
+ .shell{display:block;padding:10px}
+ .side{position:relative;max-height:none;margin-bottom:16px}
+ .toc{display:none}
+ .hero{padding:38px 26px 28px}
+ .hero h1{margin-right:70px}
+ .hero:after{width:72px;height:72px;right:17px;top:17px}
+ .content{padding:34px 27px 46px}
+ .next{margin:0 27px 36px}
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <a class="home" href="./">← Learning Room</a>
+    <div id="badge" class="badge">Lecture</div>
+    <h2 id="side-title">Loading…</h2>
+    <p id="side-copy"></p>
+    <div class="switch">
+      <a id="switch1" href="./lecture.html?lecture=1">1 · Understand the case</a>
+      <a id="switch2" href="./lecture.html?lecture=2">2 · Try to defeat it</a>
+    </div>
+    <nav id="toc" class="toc" aria-label="Lecture contents">
+      <div class="toc-title">Jump to a section</div>
+    </nav>
+  </aside>
+
+  <main class="paper">
+    <header id="hero" class="hero one">
+      <div id="mini" class="mini">Lecture 1</div>
+      <h1 id="hero-title">Understand the case.</h1>
+      <p id="hero-copy">The main explanatory read.</p>
+    </header>
+    <article id="content" class="content"><div class="loading">Loading lecture…</div></article>
+    <div id="next" class="next"></div>
+  </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+(async()=>{
+  const params=new URLSearchParams(location.search);
+  const lecture=params.get('lecture')==='2'?'2':'1';
+  const cfg=lecture==='2'
+    ?{file:'adversarial.md',title:'Try to defeat it.',side:'Adversarial stress-test',copy:'The hospital’s strongest answer, what it must explain, and what would weaken or defeat the serious propositions.',cls:'two',next:'<a href="./">← Back to both lectures</a>'}
+    :{file:'lesson.md',title:'Understand the case.',side:'The main read',copy:'The full plain-language lecture: what happened, how the evidence is organised, and where inference must stop.',cls:'one',next:'<a href="./lecture.html?lecture=2">Continue to Lecture 2: Try to defeat it →</a>'};
+
+  document.getElementById('badge').textContent='Lecture '+lecture;
+  document.getElementById('side-title').textContent=cfg.side;
+  document.getElementById('side-copy').textContent=cfg.copy;
+  document.getElementById('mini').textContent='Lecture '+lecture;
+  document.getElementById('hero-title').textContent=cfg.title;
+  document.getElementById('hero-copy').textContent=cfg.copy;
+  document.getElementById('hero').className='hero '+cfg.cls;
+  document.getElementById('switch'+lecture).classList.add('active');
+  document.getElementById('next').innerHTML=cfg.next;
+  document.title='Lecture '+lecture+' — Case Readable';
+
+  const slugify=s=>s.toLowerCase().replace(/<[^>]*>/g,'').replace(/&[a-z0-9#]+;/gi,'').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-');
+
+  try{
+    const r=await fetch('./'+cfg.file+'?v=20260923',{cache:'no-store'});
+    if(!r.ok)throw new Error('HTTP '+r.status+' while loading '+cfg.file);
+    const md=await r.text();
+    if(!window.marked)throw new Error('Markdown renderer did not load.');
+    const content=document.getElementById('content');
+    content.innerHTML=marked.parse(md,{gfm:true,breaks:false});
+
+    const used=new Map();
+    const toc=document.getElementById('toc');
+    [...content.querySelectorAll('h1,h2,h3')].forEach(h=>{
+      let base=slugify(h.textContent)||'section';
+      let n=used.get(base)||0; used.set(base,n+1);
+      h.id=n?base+'-'+(n+1):base;
+      const a=document.createElement('a');
+      a.href='#'+h.id;a.textContent=h.textContent;a.dataset.level=h.tagName.slice(1);
+      toc.appendChild(a);
+    });
+  }catch(e){
+    document.getElementById('content').innerHTML='<div class="loading">Could not load the lecture.<br>'+String(e.message||e)+'</div>';
+  }
+})();
+</script>
+</body>
+</html>
