@@ -38,6 +38,7 @@ a{color:inherit}
 .hero{padding:48px 64px 34px;position:relative;overflow:hidden;border-bottom:3px solid var(--ink)}
 .hero.one{background:var(--blue);color:var(--white)}
 .hero.two{background:var(--red);color:var(--white)}
+.hero.three{background:var(--yellow);color:var(--ink)}
 .hero:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:26px;top:24px;background:var(--yellow);border:3px solid var(--ink)}
 .hero .mini{font:1000 11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.12em}
 .hero h1{font:1000 clamp(38px,6vw,70px)/.94 var(--sans);letter-spacing:-.055em;margin:12px 120px 9px 0}
@@ -85,6 +86,7 @@ a{color:inherit}
     <div class="switch">
       <a id="switch1" href="./lecture.html?lecture=1">1 · Understand the case</a>
       <a id="switch2" href="./lecture.html?lecture=2">2 · Try to defeat it</a>
+      <a id="switch3" href="./lecture.html?lecture=3">3 · The Protest · Flagship</a>
     </div>
     <nav id="toc" class="toc" aria-label="Lecture contents">
       <div class="toc-title">Jump to a section</div>
@@ -106,10 +108,14 @@ a{color:inherit}
 <script>
 (async()=>{
   const params=new URLSearchParams(location.search);
-  const lecture=params.get('lecture')==='2'?'2':'1';
-  const cfg=lecture==='2'
-    ?{file:'adversarial.md',title:'Try to defeat it.',side:'Adversarial stress-test',copy:'The hospital’s strongest answer, what it must explain, and what would weaken or defeat the serious propositions.',cls:'two',next:'<a href="./">← Back to both lectures</a>'}
-    :{file:'lesson.md',title:'Understand the case.',side:'The main read',copy:'The full plain-language lecture: what happened, how the evidence is organised, and where inference must stop.',cls:'one',next:'<a href="./lecture.html?lecture=2">Continue to Lecture 2: Try to defeat it →</a>'};
+  const requested=params.get('lecture');
+  const lecture=requested==='3'?'3':requested==='2'?'2':'1';
+  const configs={
+    '1':{file:'lesson.md',title:'Understand the case.',side:'The main read',copy:'The full plain-language lecture: what happened, how the evidence is organised, and where inference must stop.',cls:'one',next:'<a href="./lecture.html?lecture=2">Continue to Lecture 2: Try to defeat it →</a>'},
+    '2':{file:'adversarial.md',title:'Try to defeat it.',side:'Adversarial stress-test',copy:'The hospital’s strongest answer, what it must explain, and what would weaken or defeat the serious propositions.',cls:'two',next:'<a href="./lecture.html?lecture=3">Continue to the flagship: Lecture 3 — The Protest →</a>'},
+    '3':{file:'protest',title:'The Protest.',side:'Flagship case statement',copy:'The case stated around the patient’s protest, the still-open information state, and whether the identified shortfall was resolved clinically or documentarily.',cls:'three',next:'<a href="./">← Back to the learning room</a>'}
+  };
+  const cfg=configs[lecture];
 
   document.getElementById('badge').textContent='Lecture '+lecture;
   document.getElementById('side-title').textContent=cfg.side;
@@ -130,7 +136,20 @@ a{color:inherit}
     const md=await r.text();
     if(!window.marked)throw new Error('Markdown renderer did not load.');
     const content=document.getElementById('content');
-    content.innerHTML=marked.parse(md,{gfm:true,breaks:false});
+
+    // The flagship source is intentionally stored as plain Markdown-like prose
+    // without heading markers. Add display-only heading markers for its known
+    // title/Part labels while leaving the source file untouched.
+    const renderMd=lecture==='3'
+      ?md.split('\n').map(line=>{
+          const t=line.trim();
+          if(t==='Lecture 3 — The Protest')return '# '+t;
+          if(/^Part [IVXLC]+ — /.test(t))return '## '+t;
+          return line;
+        }).join('\n')
+      :md;
+
+    content.innerHTML=marked.parse(renderMd,{gfm:true,breaks:false});
 
     const used=new Map();
     const toc=document.getElementById('toc');
