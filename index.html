@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#ffd93d">
-<meta name="description" content="Case Readable — a two-lecture litigation learning room.">
+<meta name="description" content="Case Readable — three litigation lectures, with The Protest as the flagship statement of the case.">
 <title>Case Readable — Learning Room</title>
 <style>
 :root{
@@ -103,9 +103,29 @@ h1{
   transition:.15s transform,.15s box-shadow;
 }
 .quick:hover{transform:translate(3px,3px);box-shadow:4px 4px 0 var(--ink)}
-.quick:focus-visible,.card:focus-visible,.repo:focus-visible,.downstream a:focus-visible{
+.quick:focus-visible,.flagship:focus-visible,.card:focus-visible,.repo:focus-visible,.downstream a:focus-visible{
   outline:5px solid var(--white);outline-offset:4px;
 }
+.flagship{
+  margin-top:24px;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:24px;
+  align-items:center;
+  border:4px solid var(--ink);
+  border-radius:30px;
+  padding:28px 30px;
+  background:var(--yellow);
+  box-shadow:var(--shadow);
+  text-decoration:none;
+  transition:.16s transform,.16s box-shadow;
+}
+.flagship:hover{transform:translateY(-5px);box-shadow:0 21px 0 rgba(16,24,40,.14)}
+.flagship .number{background:var(--white);transform:rotate(-5deg)}
+.flagship-copy .flag{font-size:11px;font-weight:1000;letter-spacing:.12em;text-transform:uppercase;color:var(--red)}
+.flagship-copy h2{font-size:clamp(38px,6vw,72px);line-height:.9;letter-spacing:-.05em;margin:6px 0 10px}
+.flagship-copy p{margin:0;max-width:690px;font-size:17px;line-height:1.43;font-weight:700}
+.flagship .arrow{font-size:58px;font-weight:1000}
 .question{font-weight:900;margin:42px 4px 13px;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
 .lectures{display:grid;grid-template-columns:1fr 1fr;gap:22px}
 .card{
@@ -155,6 +175,8 @@ h1{
 .downstream a{font-weight:950;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
 footer{padding:30px 4px 0;font-size:12px;font-weight:800}
 @media(max-width:760px){
+  .flagship{grid-template-columns:auto 1fr;padding:24px}
+  .flagship .arrow{grid-column:1/-1;font-size:38px}
   .lectures{grid-template-columns:1fr}
   .hero:before{width:120px;height:120px}
   h1{font-size:clamp(54px,18vw,88px)}
@@ -179,16 +201,26 @@ footer{padding:30px 4px 0;font-size:12px;font-weight:800}
 
   <header class="hero">
     <div class="hero-inner">
-      <span class="eyebrow">Litigation learning room</span>
-      <h1>Read the case.<br>Then test it.</h1>
-      <p class="lede">Two long-form lectures. Big ideas, plain language, no need to understand the underlying file structure.</p>
-      <a class="quick" href="./lecture.html?lecture=1">Start with Lecture 1 →</a>
+      <span class="eyebrow">Flagship case statement · Lecture 3</span>
+      <h1>The<br>Protest.</h1>
+      <p class="lede">This is the flagship read: the case stated around the patient’s protest, the still-open information state, and what the institution did next.</p>
+      <a class="quick" href="./lecture.html?lecture=3">Read the flagship →</a>
     </div>
   </header>
 
-  <div class="question">Choose a lecture</div>
+  <a class="flagship" href="./lecture.html?lecture=3" aria-label="Open Lecture 3, The Protest">
+    <div class="number">3</div>
+    <div class="flagship-copy">
+      <div class="flag">Flagship · Start here</div>
+      <h2>Lecture 3 — The Protest</h2>
+      <p>The final statement of the case. It follows the patient’s protest, the narrowing of the original referral, the sophisticated documentary response, and the question of whether the shortfall was resolved clinically or documentarily.</p>
+    </div>
+    <div class="arrow" aria-hidden="true">→</div>
+  </a>
 
-  <section class="lectures" aria-label="Lectures">
+  <div class="question">Supporting lectures</div>
+
+  <section class="lectures" aria-label="Supporting lectures">
     <a class="card one" href="./lecture.html?lecture=1">
       <div>
         <div class="number">1</div>
@@ -216,7 +248,7 @@ footer{padding:30px 4px 0;font-size:12px;font-weight:800}
     <a href="https://github.com/TitanicParker/case-readable/blob/main/case_reader_edition_v017_lossless.md">Open source architecture →</a>
   </section>
 
-  <footer>Blue. Red. Yellow. Two buttons. Start reading.</footer>
+  <footer>Three lectures. One flagship. Start with The Protest.</footer>
 </div>
 </body>
 </html>
