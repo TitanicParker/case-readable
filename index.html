@@ -3,164 +3,220 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#eee8df">
-<meta name="description" content="Case Readable — the canonical plain-language read of the case, rendered directly from lesson.md.">
-<title>Case Readable — Main Read</title>
+<meta name="theme-color" content="#ffd93d">
+<meta name="description" content="Case Readable — a two-lecture litigation learning room.">
+<title>Case Readable — Learning Room</title>
 <style>
 :root{
-  --canvas:#eee8df;
-  --paper:#fffdf8;
-  --ink:#201e1b;
-  --soft:#5c5750;
-  --faint:#8f877e;
-  --rule:#d9d1c5;
-  --accent:#7a3139;
-  --quote:#f7f2ea;
-  --shadow:0 24px 70px rgba(70,52,37,.10),0 2px 8px rgba(70,52,37,.06);
-  --serif:Georgia,"Times New Roman",serif;
-  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --blue:#1769ff;
+  --blue-deep:#0b3aa4;
+  --red:#ff3b30;
+  --yellow:#ffd93d;
+  --cream:#fff9e9;
+  --ink:#101828;
+  --white:#ffffff;
+  --shadow:0 16px 0 rgba(16,24,40,.12);
+  --sans:ui-rounded,"SF Pro Rounded","Avenir Next",system-ui,-apple-system,"Segoe UI",sans-serif;
 }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth;background:var(--canvas)}
+html{background:var(--yellow)}
 body{
-  margin:0;color:var(--ink);
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  font-family:var(--sans);
   background:
-    radial-gradient(circle at 12% 4%,rgba(154,106,69,.08),transparent 26rem),
-    radial-gradient(circle at 88% 18%,rgba(122,49,57,.055),transparent 34rem),
-    var(--canvas);
-  font:17px/1.76 var(--serif);
+    radial-gradient(circle at 8% 10%,rgba(255,255,255,.72) 0 26px,transparent 27px),
+    radial-gradient(circle at 88% 18%,rgba(255,59,48,.18) 0 85px,transparent 86px),
+    linear-gradient(145deg,#fff6a8 0%,var(--yellow) 48%,#ffbe2e 100%);
 }
-a{color:inherit;text-underline-offset:.18em}
-.shell{display:grid;grid-template-columns:245px minmax(0,860px);gap:42px;max-width:1230px;margin:auto;padding:26px 28px 80px}
-.sidebar{position:sticky;top:0;align-self:start;height:100vh;overflow:auto;padding:36px 2px 30px;font-family:var(--sans)}
-.brand{font:400 22px/1.08 var(--serif);letter-spacing:-.02em;margin-bottom:7px}
-.status{font-size:10px;line-height:1.45;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);font-weight:800}
-.sidebar p{font-size:12px;line-height:1.55;color:var(--soft);margin:20px 0}
-.links{border-top:1px solid var(--rule);padding-top:15px;margin-top:20px}
-.links a,.toc a{display:block;text-decoration:none;color:var(--soft);font-size:11.5px;line-height:1.35;padding:5px 0}
-.links a:hover,.toc a:hover{color:var(--accent)}
-.toc{border-top:1px solid var(--rule);padding-top:15px;margin-top:20px}
-.toc-title{font-size:9px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
-.toc a[data-level="2"]{padding-left:10px;font-size:10.8px}
-.toc a[data-level="3"]{padding-left:20px;font-size:10.3px}
-.paper{background:var(--paper);box-shadow:var(--shadow);min-height:100vh}
-.masthead{padding:56px 70px 34px;border-bottom:1px solid var(--rule)}
-.kicker{font:800 10px/1.4 var(--sans);letter-spacing:.15em;text-transform:uppercase;color:var(--accent);margin-bottom:17px}
-.masthead h1{font:400 clamp(38px,5vw,60px)/1.02 var(--serif);letter-spacing:-.045em;margin:0 0 18px}
-.masthead p{max-width:690px;margin:0;color:var(--soft);font-size:16px;line-height:1.55}
-.content{padding:44px 72px 72px}
-.content h1,.content h2,.content h3{scroll-margin-top:28px;color:var(--ink)}
-.content h1{font:400 37px/1.1 var(--serif);letter-spacing:-.03em;margin:1.9em 0 .65em;padding-top:.15em}
-.content h1:first-child{margin-top:0}
-.content h2{font:400 28px/1.18 var(--serif);letter-spacing:-.022em;margin:2.1em 0 .7em}
-.content h3{font:700 15px/1.35 var(--sans);margin:2.1em 0 .55em}
-.content p{max-width:710px;margin:.82em 0}
-.content strong{font-weight:700}
-.content blockquote{margin:1.8em 0;padding:1.05em 1.4em;border-left:3px solid var(--accent);background:var(--quote);font-size:18px}
-.content blockquote p{margin:.15em 0}
-.content hr{border:0;border-top:1px solid var(--rule);margin:2.7em 0}
-.content ul,.content ol{padding-left:1.45em;max-width:710px}
-.content li{margin:.35em 0}
-.content code{font: .88em ui-monospace,SFMono-Regular,Menlo,monospace;background:var(--quote);padding:.1em .3em;border-radius:3px}
-.loading{padding:70px 72px;color:var(--soft);font-family:var(--sans)}
-.error{color:var(--accent)}
-.source-note{border-top:1px solid var(--rule);padding:23px 72px 28px;color:var(--faint);font:11px/1.55 var(--sans)}
-.source-note a{color:var(--accent)}
-@media(max-width:930px){
-  .shell{display:block;max-width:900px;padding:0 0 60px}
-  .sidebar{position:relative;height:auto;padding:20px 24px 15px;background:var(--paper);border-bottom:1px solid var(--rule)}
-  .toc{display:none}.links{display:flex;gap:18px;flex-wrap:wrap}
-  .paper{box-shadow:none}
+a{color:inherit}
+.wrap{width:min(1160px,calc(100% - 28px));margin:auto;padding:26px 0 54px}
+.topbar{
+  display:flex;justify-content:space-between;align-items:center;gap:16px;
+  font-weight:900;font-size:13px;letter-spacing:.08em;text-transform:uppercase;
 }
-@media(max-width:650px){
-  body{font-size:16px}
-  .masthead{padding:42px 25px 28px}
-  .content{padding:35px 26px 55px}
-  .content h1{font-size:32px}.content h2{font-size:26px}
-  .loading{padding:45px 26px}
-  .source-note{padding:20px 26px 24px}
+.brand{display:inline-flex;align-items:center;gap:10px}
+.dot{width:18px;height:18px;border-radius:50%;background:var(--red);box-shadow:24px 0 0 var(--blue),48px 0 0 var(--white)}
+.repo{padding:10px 14px;border:3px solid var(--ink);border-radius:999px;background:var(--white);text-decoration:none}
+.hero{
+  margin-top:22px;
+  border:4px solid var(--ink);
+  border-radius:34px;
+  background:var(--cream);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+  position:relative;
 }
-@media(prefers-color-scheme:dark){
-  :root{--canvas:#171513;--paper:#211f1c;--ink:#efe9df;--soft:#c4bbb0;--faint:#91877c;--rule:#3f3933;--accent:#d88b95;--quote:#292520;--shadow:none}
+.hero:before{
+  content:"";
+  position:absolute;
+  width:190px;height:190px;border-radius:50%;
+  background:var(--blue);
+  right:-55px;top:-68px;
+  border:4px solid var(--ink);
+}
+.hero:after{
+  content:"";
+  position:absolute;
+  width:130px;height:130px;
+  background:var(--red);
+  transform:rotate(18deg);
+  left:-52px;bottom:-66px;
+  border:4px solid var(--ink);
+}
+.hero-inner{position:relative;z-index:1;padding:clamp(38px,7vw,86px)}
+.eyebrow{
+  display:inline-block;
+  padding:9px 13px;
+  border:3px solid var(--ink);
+  border-radius:999px;
+  background:var(--yellow);
+  font-size:12px;font-weight:950;letter-spacing:.11em;text-transform:uppercase;
+}
+h1{
+  margin:22px 0 16px;
+  max-width:880px;
+  font-size:clamp(58px,10vw,128px);
+  line-height:.84;
+  letter-spacing:-.07em;
+}
+.lede{
+  max-width:740px;
+  margin:0;
+  font-size:clamp(19px,2.5vw,28px);
+  line-height:1.28;
+  font-weight:750;
+}
+.quick{
+  display:inline-flex;
+  margin-top:32px;
+  padding:18px 26px;
+  border:4px solid var(--ink);
+  border-radius:18px;
+  background:var(--blue);
+  color:var(--white);
+  font-size:18px;
+  font-weight:950;
+  text-decoration:none;
+  box-shadow:7px 7px 0 var(--ink);
+  transition:.15s transform,.15s box-shadow;
+}
+.quick:hover{transform:translate(3px,3px);box-shadow:4px 4px 0 var(--ink)}
+.quick:focus-visible,.card:focus-visible,.repo:focus-visible,.downstream a:focus-visible{
+  outline:5px solid var(--white);outline-offset:4px;
+}
+.question{font-weight:900;margin:42px 4px 13px;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
+.lectures{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{
+  min-height:330px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border:4px solid var(--ink);
+  border-radius:30px;
+  padding:30px;
+  text-decoration:none;
+  box-shadow:var(--shadow);
+  transition:.16s transform,.16s box-shadow;
+}
+.card:hover{transform:translateY(-5px) rotate(-.25deg);box-shadow:0 21px 0 rgba(16,24,40,.14)}
+.card.one{background:var(--blue);color:var(--white)}
+.card.two{background:var(--red);color:var(--white)}
+.number{
+  width:64px;height:64px;
+  display:grid;place-items:center;
+  border:4px solid var(--ink);
+  border-radius:18px;
+  background:var(--yellow);
+  color:var(--ink);
+  font-size:27px;font-weight:1000;
+  transform:rotate(-4deg);
+}
+.card.two .number{background:var(--white);transform:rotate(4deg)}
+.card h2{font-size:clamp(34px,5vw,62px);line-height:.92;letter-spacing:-.045em;margin:24px 0 14px}
+.card p{font-size:17px;line-height:1.43;max-width:520px;margin:0;font-weight:650}
+.go{
+  margin-top:28px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:16px;
+  padding-top:18px;border-top:3px solid currentColor;
+  font-size:14px;font-weight:1000;text-transform:uppercase;letter-spacing:.08em;
+}
+.arrow{font-size:36px;line-height:1}
+.downstream{
+  margin-top:22px;
+  display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center;
+  border:3px dashed var(--ink);border-radius:24px;padding:22px 24px;
+  background:rgba(255,255,255,.62);
+}
+.downstream strong{font-size:18px}
+.downstream p{margin:3px 0 0;font-size:13px;line-height:1.5}
+.downstream a{font-weight:950;font-size:12px;text-transform:uppercase;letter-spacing:.08em}
+footer{padding:30px 4px 0;font-size:12px;font-weight:800}
+@media(max-width:760px){
+  .lectures{grid-template-columns:1fr}
+  .hero:before{width:120px;height:120px}
+  h1{font-size:clamp(54px,18vw,88px)}
+  .card{min-height:300px}
+  .downstream{grid-template-columns:1fr}
+}
+@media(max-width:460px){
+  .wrap{width:min(100% - 18px,1160px);padding-top:10px}
+  .repo{display:none}
+  .hero{border-radius:24px}
+  .hero-inner{padding:34px 22px 40px}
+  .card{padding:24px;border-radius:24px}
 }
 </style>
 </head>
 <body>
-<div class="shell">
-  <aside class="sidebar">
-    <div class="brand">Case Readable</div>
-    <div class="status">Canonical main read</div>
-    <p><strong>lesson.md</strong> is the governing public read of this site. The evidential formulation and preserved source sit downstream from it.</p>
-    <nav class="links" aria-label="Source links">
-      <a href="https://github.com/TitanicParker/case-readable/blob/main/lesson.md">Main read source</a>
-      <a href="./case_reader_edition_v017_lossless.md">Lossless evidence formulation</a>
-      <a href="https://github.com/TitanicParker/case-readable">Repository</a>
-      <a href="https://titanicparker.github.io/">Project Museum</a>
-    </nav>
-    <nav id="toc" class="toc" aria-label="Lecture contents">
-      <div class="toc-title">Lecture contents</div>
-    </nav>
-  </aside>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand"><span class="dot" aria-hidden="true"></span><span style="margin-left:48px">Case Readable</span></div>
+    <a class="repo" href="https://github.com/TitanicParker/case-readable">Source repository</a>
+  </div>
 
-  <main class="paper">
-    <header class="masthead">
-      <div class="kicker">One-hour case lecture · source-driven</div>
-      <h1>The case, read from the top down.</h1>
-      <p>This page renders the repository's <strong>lesson.md</strong> directly. It is the primary explanatory object; all supporting case architecture, source preservation and downstream materials are subordinate to this read.</p>
-    </header>
+  <header class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Litigation learning room</span>
+      <h1>Read the case.<br>Then test it.</h1>
+      <p class="lede">Two long-form lectures. Big ideas, plain language, no need to understand the underlying file structure.</p>
+      <a class="quick" href="./lecture.html?lecture=1">Start with Lecture 1 →</a>
+    </div>
+  </header>
 
-    <article id="content" class="content">
-      <div class="loading" id="loading">Loading the canonical read…</div>
-    </article>
+  <div class="question">Choose a lecture</div>
 
-    <footer class="source-note">
-      Canonical text: <a href="https://github.com/TitanicParker/case-readable/blob/main/lesson.md"><code>lesson.md</code></a>.
-      Supporting lossless formulation: <a href="./case_reader_edition_v017_lossless.md"><code>case_reader_edition_v017_lossless.md</code></a>.
-    </footer>
-  </main>
+  <section class="lectures" aria-label="Lectures">
+    <a class="card one" href="./lecture.html?lecture=1">
+      <div>
+        <div class="number">1</div>
+        <h2>Understand<br>the case.</h2>
+        <p>The main read. What the case is, how the evidence is organised, what the record shows, where inference stops, and why the architecture matters.</p>
+      </div>
+      <div class="go"><span>Open Lecture 1</span><span class="arrow">→</span></div>
+    </a>
+
+    <a class="card two" href="./lecture.html?lecture=2">
+      <div>
+        <div class="number">2</div>
+        <h2>Try to<br>defeat it.</h2>
+        <p>The adversarial stress-test. Build the hospital's strongest answer, proposition by proposition, then show what weakens or defeats each part of the case.</p>
+      </div>
+      <div class="go"><span>Open Lecture 2</span><span class="arrow">→</span></div>
+    </a>
+  </section>
+
+  <section class="downstream">
+    <div>
+      <strong>Everything else is downstream.</strong>
+      <p>The lossless formulation remains available as the supporting evidential architecture, but it is not the front door.</p>
+    </div>
+    <a href="https://github.com/TitanicParker/case-readable/blob/main/case_reader_edition_v017_lossless.md">Open source architecture →</a>
+  </section>
+
+  <footer>Blue. Red. Yellow. Two buttons. Start reading.</footer>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script>
-(async()=>{
-  const content=document.getElementById('content');
-  const toc=document.getElementById('toc');
-  const source='https://raw.githubusercontent.com/TitanicParker/case-readable/main/lesson.md';
-
-  const slugify=s=>s.toLowerCase()
-    .replace(/<[^>]*>/g,'')
-    .replace(/&[a-z0-9#]+;/gi,'')
-    .replace(/[^a-z0-9\s-]/g,'')
-    .trim().replace(/\s+/g,'-').replace(/-+/g,'-');
-
-  try{
-    const r=await fetch(source,{cache:'no-store'});
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    const md=await r.text();
-
-    if(!window.marked) throw new Error('Markdown renderer did not load.');
-    content.innerHTML=marked.parse(md,{gfm:true,breaks:false});
-
-    const used=new Map();
-    [...content.querySelectorAll('h1,h2,h3')].forEach(h=>{
-      let base=slugify(h.textContent)||'section';
-      let n=used.get(base)||0;
-      used.set(base,n+1);
-      h.id=n?base+'-'+(n+1):base;
-
-      const a=document.createElement('a');
-      a.href='#'+h.id;
-      a.textContent=h.textContent;
-      a.dataset.level=h.tagName.slice(1);
-      toc.appendChild(a);
-    });
-
-    document.title=(content.querySelector('h1')?.textContent||'Case Readable')+' — Case Readable';
-  }catch(e){
-    content.innerHTML='<div class="loading error"><strong>The canonical read could not be loaded.</strong><p>'+String(e.message||e)+'</p><p><a href="https://github.com/TitanicParker/case-readable/blob/main/lesson.md">Open lesson.md on GitHub</a></p></div>';
-  }
-})();
-</script>
 </body>
 </html>
