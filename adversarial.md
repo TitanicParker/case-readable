@@ -12,7 +12,7 @@ This exercise is bounded by `lesson.md` and the lossless case formulation. No se
 
 # 1. The strongest fair hospital case
 
-The hospital's best case is substantial.
+The hospital's best case is substantial and should be stated plainly.
 
 The patient did not have one simple lower-limb phenomenon. There was genuine structural foot disease. There were corns, callouses, pressure lesions, clawed toes and podiatric abnormalities. The patient himself distinguished some painful foot phenomena from his wider sensations of tension. Severe young-onset Parkinsonism was strongly demonstrated. The dystonic-looking gait was not simply missed: Neurology recorded it. PARK2/PRKN entered the specialist reasoning. External specialist input was obtained. Treatment was active. Later clinicians did not mechanically follow a frozen model: the 2020 foot-throw episode involved specific discrimination, and the 2023 review reconsidered ON/OFF dystonia, timing, neuropathy and other possibilities. The case formulation itself expressly recognises both documentary inheritance and genuine local reassessment.
 
@@ -20,13 +20,27 @@ The hospital can therefore formulate its case as follows:
 
 > The patient's lower-limb presentation contained several genuinely different phenomena. Clinicians reasonably decomposed those phenomena for investigation and management while correctly recognising and treating a strongly supported Parkinsonian disorder. Real structural pathology properly went to Podiatry; peripheral or neuropathic mechanisms were legitimate possibilities; dystonic phenomena were recognised where encountered; genetic uncertainty was retained; and subsequent symptoms were reconsidered as the phenotype evolved. What the claimant calls “path dependence” may instead be ordinary, adaptive chronic-disease care conducted under unavoidable uncertainty.
 
-That is not a straw man. The stress-test instructions themselves require that defence to be taken seriously.
+That is a serious defence.
 
 But its **component facts** being true does not establish its ultimate conclusion. The proposition that the original decomposition was clinically justified remains expert-dependent. The proposition that later reassessment was sufficient to validate the parent architecture remains partly documentary and partly expert-dependent.
 
-The hospital has already defeated several overbroad allegations. It has substantial evidence against “the feet were ignored,” “nobody reconsidered,” “there was no structural disease,” “dystonia was never noticed,” and “the system was completely frozen.” The case formulation itself quarantines those propositions.
+The record already defeats several overbroad allegations. It has substantial evidence against “the feet were ignored,” “nobody reconsidered,” “there was no structural disease,” “dystonia was never noticed,” and “the system was completely frozen.” The case formulation itself quarantines those propositions.
 
 The remaining case is narrower.
+
+Before testing it, keep the record's own tension visible:
+
+> **GP, 29 June 2017:** “he claws his toes” ... “?parkinsonian or other underlying diagnosis”.
+
+> **Neurology, July 2017:** “somewhat suggestive of a dystonic posture — NOT FOOT DROP.”
+
+> **Neurology, July 2017:** the distal symptoms “may have been completely separate or perhaps a secondary peripheral neuropathy” — “Not clear”.
+
+> **Professor Healy, September 2017:** “probably has Park II”.
+
+> **Patient during procyclidine withdrawal, October 2017:** “my feet are restless and my walk is falling apart”.
+
+The stress-test is not whether any one of those sentences can be explained. It is whether the hospital can show the evidential bridges between them.
 
 ---
 
