@@ -437,6 +437,46 @@ It makes the question sharper.
 
 ---
 
+# 15A. The missing biological join — genotype, phenotype and pharmacology
+
+The small-network analysis now exposes one further asymmetry.
+
+The same neurologist remained beside three streams of information that became progressively more informative:
+
+1. **genotype / aetiological reasoning** — very-young-onset disease, autosomal-recessive possibilities and PRKN/PARK2;
+2. **phenotype** — severe akinetic-rigid Parkinsonism, a dystonic-looking distal lower limb, toe posture/clawing, longstanding painful feet and structural abnormalities;
+3. **pharmacology** — substantial neurological treatment response, deterioration on procyclidine withdrawal, restless feet and worsening gait, rapid return of the outside-left-foot phenomenon, later OFF/dystonia reasoning and later dopaminergic effects on the painful territory.
+
+The important question is not whether those observations prove one mechanism.
+
+They do not.
+
+The question is whether anyone in the small network ever joined them into one longitudinal phenotype reconstruction.
+
+> **What disease phenotype was actually present, how prominent was dystonia in the lower limbs, and what did treatment-state behaviour reveal about the painful distal territory?**
+
+That question matters more because the onset history was unusually long and unusually young.
+
+The 2017 synthesis itself looked back roughly thirteen years. The service therefore knew that it was not simply treating a conventional late-onset Parkinsonian snapshot. It was dealing with a long-evolving young-onset disorder whose phenotype could carry diagnostic and therapeutic information.
+
+This creates a particularly sharp small-network question:
+
+> **How could the same neurologist remain beside the genetic hypothesis, the dystonic-looking lower-limb phenotype and the later pharmacological perturbations without the record clearly showing a global reconstruction of the relationship among them?**
+
+Again, the answer may be clinically benign.
+
+An independent expert may conclude that dystonia was only a secondary feature, that treatment responses were non-specific, that the painful structural disease remained largely independent, or that management would not materially have changed.
+
+But if an expert instead concludes that lower-limb dystonia was a major component of the underlying disease, the significance changes.
+
+The unresolved territory would then potentially contain one of the disease's major and treatable manifestations.
+
+That would make the founding failure not simply one of diagnostic labelling.
+
+It would become a question of whether an important part of the actual phenotype was left outside the neurological treatment model.
+
+---
+
 # 16. 2023 changes the stakes
 
 By 2023 the same painful territory is no longer merely an unresolved diagnostic question.
@@ -705,6 +745,8 @@ The information state remained remarkably durable.
 > **Facts survived. Relationships did not necessarily survive with them.**
 
 > **Local updating did not necessarily produce global revision.**
+
+> **The genotype was theorised, the lower-limb phenotype remained incompletely integrated, and pharmacology later kept sending information back across the boundary.**
 
 > **The actors were close, but the representation was stable.**
 
