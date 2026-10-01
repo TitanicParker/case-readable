@@ -14,7 +14,7 @@ The thesis is therefore about **recognition followed by decomposition, followed 
 
 That small-network fact now has to be held from the beginning. This is not a story in which one neurologist wrote a document and disappeared while strangers inherited it across remote institutions. The same patient remained in care, the same GP remained involved from April 2017 onward, and the same neurologist remained clinically beside the synthesis he had created. The later movement-disorders nurse entered that already-established local network. The fragmentation question therefore arises **despite continuity**, not because continuity was absent.
 
-That distinction matters enormously. A crude formulation would say: “Doctors missed dystonia,” or “neuropathy was wrong,” or “PRKN should obviously have been diagnosed.” The document deliberately rejects those formulations. The stronger question is: **how did an integrated problem become a divided problem; what evidence justified the division; what authority did the resulting representation acquire; and what happened when later evidence repeatedly crossed the line that had been drawn?**
+That distinction matters. A crude formulation would say: “Doctors missed dystonia,” or “neuropathy was wrong,” or “PRKN should obviously have been diagnosed.” The document deliberately rejects those formulations. The stronger question is: **how did an integrated problem become a divided problem; what evidence justified the division; what authority did the resulting representation acquire; and what happened when later evidence repeatedly crossed the line that had been drawn?**
 
 That is why the case is fundamentally about information architecture.
 
@@ -29,6 +29,18 @@ Those are not the same thing.
 The documentary record can sometimes establish the second with considerable confidence while remaining unable to determine the first without expert evidence.
 
 That discipline is the foundation of the case.
+
+Before going further, four pieces of the record should remain in view:
+
+> **GP, 29 June 2017:** “he was attending with bilat foot issues” ... “marked stiffness and increased tone” ... “he claws his toes” ... “?parkinsonian or other underlying diagnosis”.
+
+> **Neurology, July 2017:** “somewhat suggestive of a dystonic posture — NOT FOOT DROP.”
+
+> **Neurology, July 2017:** the leg/foot symptoms “may have been completely separate or perhaps a secondary peripheral neuropathy” — “Not clear”.
+
+> **Plan/Recommendations:** “As per above.”
+
+Lecture 1 is the attempt to explain the movement between those four states without claiming more than the record supports.
 
 ---
 
@@ -62,7 +74,7 @@ At the beginning there was an open question.
 
 The document’s GP information-state analysis reinforces this. It identifies direct evidence that, before hospitalisation, the GP was considering neurological assessment of the patient’s “gait, feet and muscle tension” together. The urgent referral preserved bilateral foot issues, an unusual stiff or festinant gait, increasing movement-initiation difficulty, marked upper- and lower-limb tone, inability to relax, toe clawing, worsening dexterity, declining work function and an expressly open diagnostic question.
 
-So the first mental picture for the litigation team should be this:
+The first mental picture should therefore be:
 
 **one patient, one evolving trajectory, several interacting dimensions, no final explanatory partition yet imposed.**
 
@@ -110,13 +122,13 @@ Not that peripheral neuropathy could not legitimately enter the differential.
 
 The safe proposition is that **dystonic-looking lower-limb phenomenology was already present in the specialist information state at the time when the lower-limb problem was being partitioned.**
 
-And that brings us to the asymmetry at the centre of the document.
+That is the asymmetry at the centre of the document.
 
 The Parkinsonian and genetic branch receives extremely sophisticated development. The record reasons from very young onset, symmetry, rigidity and bradykinesia into a young-onset Parkinsonian differential, recessive possibilities and specific PARK2/PRKN reasoning.
 
 By comparison, the surviving distal relational map—dynamic toe posture, fixed versus dynamic deformity, loading, pressure distribution, detailed sensation, directional distal strength, pain provocation and the relationship between those observations and gait—is less granular.
 
-The document is extremely disciplined about the language to use here.
+The language matters here.
 
 The correct statement is **“not documented at comparable resolution.”**
 
@@ -126,7 +138,7 @@ Those are not interchangeable.
 
 Absence of documentation can expose a source gap. It cannot automatically prove absence of clinical activity.
 
-The point, therefore, is not that the 2017 reasoning was unsophisticated. The document protects almost the opposite formulation:
+The point is not that the 2017 reasoning was unsophisticated. The better formulation is:
 
 **The problem is not lack of sophistication. It is where the sophistication was applied.**
 
