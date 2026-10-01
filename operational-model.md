@@ -496,6 +496,56 @@ But the later answer can reveal what biological phenomenon was actually present 
 
 ---
 
+# 18A. What the missing phenotype means for the patient's understanding
+
+There is a human consequence to phenotype compression that is distinct from treatment.
+
+For years, the patient needed an explanation capable of joining:
+
+- the early tension/posturing;
+- the feet;
+- the toe abnormalities;
+- the gait;
+- the Parkinsonian syndrome;
+- the treatment effects;
+- and eventually the genetic result.
+
+The broad Parkinson's framework explained part of that life extremely well.
+
+The separate/peripheral foot model explained another part provisionally.
+
+What remained missing was the relationship.
+
+If independent expert review ultimately concludes that lower-limb dystonia was a major or predominant component of PRKN disease across the long trajectory, the significance is not simply that a better diagnostic phrase becomes available in 2026.
+
+It would mean that the patient may have spent years without access to a coherent explanation of his own disease history because the disease had been divided at the very point where genotype, phenotype and pharmacology needed to be joined.
+
+That possibility gives special significance to the later statement that the letters were designed to help the person understand “the facts and the nuances” and to bridge what was said with what was heard.
+
+The question becomes:
+
+> **What understanding could the patient reasonably derive if the document itself had not yet resolved the phenotype that mattered most to his lived experience?**
+
+This is not a demand that clinicians in 2017 possess the 2026 answer.
+
+It is a demand that the history preserve whether the relevant question was adequately asked.
+
+The patient-centred endpoint is therefore not:
+
+> prove that I was right all along.
+
+It is:
+
+> **give me an account of my disease that is capable of explaining my life without erasing the uncertainty, the missed relationships or the evidence that later changed what could be understood.**
+
+That is why the 2026 reconstruction matters.
+
+It is not merely retrospective accusation.
+
+It is the recovery of intelligibility.
+
+---
+
 # 19. The strongest fair hospital answer
 
 The hospital has a serious defence.
