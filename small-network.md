@@ -170,6 +170,54 @@ For the neurologist, it sat on top of personal knowledge that the patient had ex
 
 ---
 
+# 5A. The patient was also an information carrier
+
+The small network contained another source of continuity which is easy to underestimate:
+
+> **the patient himself.**
+
+He carried the only uninterrupted first-person record of what the symptoms felt like across the whole trajectory.
+
+The GP had longitudinal primary-care knowledge.
+
+The neurologist had specialist knowledge, authorship and provenance.
+
+The patient had embodied continuity.
+
+That does not make the patient's interpretation automatically correct.
+
+It does mean that his repeated experience was an epistemic resource.
+
+The 2017 synthesis itself describes him as having a “very prescient understanding.” The later neurologist response says the correspondence was intended as a resource for the person himself and to bridge the difference between what clinicians meant and what the patient understood.
+
+That creates a reciprocal obligation in the information architecture.
+
+The patient is not merely someone to whom the model is explained.
+
+He is also someone whose longitudinal experience can test whether the model remains adequate.
+
+If specialist representation becomes more authoritative than the patient's repeated relational observations, the system can distort that reciprocity.
+
+The patient can continue to say:
+
+> these things belong together in my experience;
+
+while the record continues to say:
+
+> these things occupy different clinical branches.
+
+The risk is not that patient experience should automatically overrule specialist judgment.
+
+It is that the patient's unique continuity becomes treated as anecdotal input rather than as one of the few sources capable of revealing that the parent model may need reconstruction.
+
+That is another reason the small-network case is serious.
+
+The network was small enough that the patient's embodied continuity never disappeared.
+
+The question is whether the system knew how to use it.
+
+---
+
 # 6. The neurologist did not inherit the discharge synthesis
 
 This point should not be blurred by generic language about downstream care.
@@ -595,6 +643,34 @@ It asks whether the institution repeatedly updated parts of the case without glo
 That is the meaning of:
 
 > **local updating, global non-revision.**
+
+---
+
+# 20A. Representation can also govern self-understanding
+
+An authoritative clinical representation does not only organise professionals.
+
+It can organise the patient's own understanding of what counts as disease.
+
+If the model says Parkinsonism is central while the painful feet remain separate, peripheral or uncertain, then the patient may spend years trying to understand and manage those experiences as different problems.
+
+That matters because the later complaint was not generated from a complete retrospective theory.
+
+The patient first recognised the effect:
+
+> something had become fixed and was not being adequately reassessed.
+
+Only later did he reconstruct the Protest, the founding uncertainty and the genotype–phenotype–pharmacology relationship as possible explanations for how that effect arose.
+
+The system therefore had an informational advantage over the patient.
+
+The neurologist knew the provenance of the uncertainty.
+
+The patient lived inside its consequences without access to that provenance.
+
+That is the deepest form of the asymmetry:
+
+> **the clinician knew how the uncertainty had been made; the patient had to use the uncertainty to make sense of his life.**
 
 ---
 
