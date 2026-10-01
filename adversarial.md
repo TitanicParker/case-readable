@@ -880,6 +880,52 @@ These are the highest-value disclosure targets.
 
 ---
 
+# Proposition 11 — A coherent specialist explanation may have constrained the patient's own understanding
+
+### Raw evidence
+
+The 2017 synthesis describes the patient as having a “very prescient understanding,” records extensive counselling and says he would receive the letter. In 2025 the neurologist expressly explains that his letters were intended to be a resource for the person himself and to bridge the gap between what was said or intended and what was heard or understood.
+
+The same documentary architecture presented the Parkinsonian syndrome as central, left the painful distal territory “Not clear” or possibly separate/peripheral, and embedded a treatment strategy around that representation.
+
+### Established fact
+
+The patient was not merely documented about. He was expressly intended to use the specialist correspondence as an explanatory resource.
+
+### Documentary inference
+
+If the specialist representation omitted or weakened an important relationship, the effect could extend beyond professional handoff. The same representation could shape the patient's own understanding of what belonged to the disease and what did not.
+
+### Serious proposition
+
+**A clinically coherent but incompletely integrated specialist account may have constrained the patient's ability to understand the painful lower-limb problem as a possible component of his movement phenotype and therefore constrained the questions he could reasonably know to ask later.**
+
+### Strongest hospital answer
+
+Providing a patient with a clear, comprehensible working model is good practice. Clinicians cannot communicate every unresolved mechanism in maximal detail. A patient being copied on correspondence does not mean he passively adopts every proposition in it, and the patient repeatedly demonstrated independent thinking and challenged clinicians when he disagreed.
+
+That answer is substantial.
+
+### What weakens the proposition
+
+Evidence that the patient was repeatedly told, in clear terms, that the painful feet might still be part of the neurological phenotype and that this question remained actively open.
+
+Evidence that later letters explicitly invited reconsideration of the feet–dystonia relationship rather than primarily presenting a separate/peripheral model.
+
+### What defeats it
+
+A contemporaneous communication record showing that the patient was given a materially complete explanation of the unresolved phenotype, including the possibility that dystonia, structural loading, pain and the movement disorder could interact, together with clear reopening triggers and opportunities for specialist review.
+
+### Why it matters
+
+This proposition is not about whether the patient was “well informed” in a generic sense.
+
+It concerns epistemic agency.
+
+A patient cannot be expected to request reconsideration of a relationship that the authoritative clinical model has taught him has already been adequately considered or legitimately separated.
+
+---
+
 # The hospital's real evidential task
 
 The hospital does not need to establish that the patient was treated. Extensive treatment is already accepted.
