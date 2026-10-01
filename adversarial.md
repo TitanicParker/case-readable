@@ -34,6 +34,8 @@ Before testing it, keep the record's own tension visible:
 
 > **Neurology, July 2017:** “somewhat suggestive of a dystonic posture — NOT FOOT DROP.”
 
+> **Patient, immediately before discharge:** “You have not dealt with my feet.”
+
 > **Neurology, July 2017:** the distal symptoms “may have been completely separate or perhaps a secondary peripheral neuropathy” — “Not clear”.
 
 > **Professor Healy, September 2017:** “probably has Park II”.
