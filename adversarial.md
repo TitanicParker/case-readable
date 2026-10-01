@@ -432,6 +432,87 @@ The later 2026 result should not be used to substitute for this missing historic
 
 ---
 
+# Proposition 6A — The record may contain a missing genotype–phenotype–pharmacology reconstruction
+
+### Raw evidence
+
+The record places symptom onset potentially around 2004, many years before the 2017 admission. By 2017 the patient had severe very-young-onset Parkinsonism, marked rigidity/bradykinesia, a gait described in dystonic terms, toe posture/clawing, longstanding painful abnormal feet and genuine structural disease. PARK2/PRKN and other recessive possibilities entered specialist reasoning.
+
+After discharge, treatment-state changes generated further information. Procyclidine/rasagiline was associated with substantial motor improvement. During procyclidine withdrawal, tension increased, the feet became restless and gait deteriorated. The treating neurologist later documented rapid return of the outside-left-foot phenomenon. Later records include OFF/dystonia reasoning and dopaminergic effects on the painful distal territory.
+
+### Established fact
+
+The record contains all three categories of information:
+
+1. genetic/aetiological hypothesis;
+2. dystonic and Parkinsonian phenotype information;
+3. pharmacological state-response information.
+
+### Documentary inference
+
+Those categories appear more clearly documented in parallel than explicitly integrated into one longitudinal reconstruction of the lower-limb phenotype.
+
+### Serious proposition
+
+**The service may have pursued the genotype more deeply than it phenotyped the painful lower-limb disorder, even though later pharmacological state changes repeatedly generated information capable of testing the relationship between them.**
+
+### Strongest hospital answer
+
+This proposition can easily overreach.
+
+PRKN/PARK2 reasoning does not require every lower-limb complaint to be dystonic. Procyclidine response is not a mechanism detector. Structural pathology was real. The patient himself distinguished foot pain from bodily tension. Mixed mechanisms are common. Later OFF/dystonia reasoning shows that the service did continue to phenotype the movement disorder.
+
+The hospital can therefore say that genotype, phenotype and pharmacology were appropriately handled as related but non-identical clinical questions, and that no single unifying lower-limb mechanism was justified by the evidence available at the time.
+
+That is a strong answer.
+
+### Status
+
+**Serious expert-dependent proposition, not presently established.**
+
+The documentary record shows the ingredients of the triangle. It does not itself establish that dystonia was the dominant lower-limb mechanism or that earlier dystonia-directed treatment would probably have prevented later harm.
+
+### Hospital must explain
+
+What phenotype did the service believe was present in the lower limbs in 2017?
+
+How prominent did it consider dystonia?
+
+Did the possible thirteen-year history alter the expected phenotype?
+
+What was the purpose of procyclidine in this individual patient?
+
+How were the withdrawal effects interpreted?
+
+Why did rapid recurrence of the outside-left-foot phenomenon not trigger an explicit genotype–phenotype–pharmacology reconstruction?
+
+Did later OFF/dystonia reasoning retrospectively alter the understanding of the earlier distal presentation?
+
+### What weakens it
+
+Clear documentation that the lower-limb phenotype was repeatedly assessed as mixed and that treatment-state findings were explicitly considered but reasonably judged non-specific.
+
+Evidence that the structural painful foot pathology followed an independent course unrelated to movement state.
+
+Independent expert opinion that the observed pharmacological responses would not reasonably have supported a broader dystonia-focused interpretation at the relevant times.
+
+### What defeats it
+
+A contemporaneous or later pre-complaint specialist synthesis explicitly integrating:
+
+- the long symptom trajectory;
+- young-onset genetic reasoning;
+- the dystonic-looking distal limb;
+- toe posture;
+- structural foot disease;
+- painful loading;
+- treatment response and withdrawal;
+- and OFF-state behaviour,
+
+and then explaining why dystonia was or was not a major component of the painful lower-limb phenotype and what treatment implications followed.
+
+---
+
 # Proposition 7 — Primary care repeatedly returned the relational question to specialist care
 
 ### Raw evidence
@@ -832,6 +913,8 @@ It is **not** a negligence finding.
 It is **not** a medical conclusion that the original separation was wrong.
 
 It is **not** a finding that every painful foot symptom was dystonic or PRKN-mediated.
+
+It is also **not** yet a finding that dystonia was the dominant lower-limb phenotype. The new genotype–phenotype–pharmacology question is an expert-facing proposition: the record shows enough to require the relationship to be examined, not enough to predetermine the answer.
 
 It is **not** a finding that the hospital ignored the patient.
 
