@@ -39,6 +39,7 @@ a{color:inherit}
 .hero.one{background:var(--blue);color:var(--white)}
 .hero.two{background:var(--red);color:var(--white)}
 .hero.three{background:var(--yellow);color:var(--ink)}
+.hero.four{background:var(--cream);color:var(--ink)}
 .hero:after{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:26px;top:24px;background:var(--yellow);border:3px solid var(--ink)}
 .hero .mini{font:1000 11px/1.3 var(--sans);text-transform:uppercase;letter-spacing:.12em}
 .hero h1{font:1000 clamp(38px,6vw,70px)/.94 var(--sans);letter-spacing:-.055em;margin:12px 120px 9px 0}
@@ -87,6 +88,7 @@ a{color:inherit}
       <a id="switch1" href="./lecture.html?lecture=1">1 · Understand the case</a>
       <a id="switch2" href="./lecture.html?lecture=2">2 · Try to defeat it</a>
       <a id="switch3" href="./lecture.html?lecture=3">3 · The Protest · Flagship</a>
+      <a id="switch4" href="./lecture.html?lecture=4">4 · The Small Network</a>
     </div>
     <nav id="toc" class="toc" aria-label="Lecture contents">
       <div class="toc-title">Jump to a section</div>
@@ -109,11 +111,12 @@ a{color:inherit}
 (async()=>{
   const params=new URLSearchParams(location.search);
   const requested=params.get('lecture');
-  const lecture=requested==='3'?'3':requested==='2'?'2':'1';
+  const lecture=requested==='4'?'4':requested==='3'?'3':requested==='2'?'2':'1';
   const configs={
     '1':{file:'lesson.md',title:'Understand the case.',side:'The main read',copy:'The full plain-language lecture: what happened, how the evidence is organised, and where inference must stop.',cls:'one',next:'<a href="./lecture.html?lecture=2">Continue to Lecture 2: Try to defeat it →</a>'},
     '2':{file:'adversarial.md',title:'Try to defeat it.',side:'Adversarial stress-test',copy:'The hospital’s strongest answer, what it must explain, and what would weaken or defeat the serious propositions.',cls:'two',next:'<a href="./lecture.html?lecture=3">Continue to the flagship: Lecture 3 — The Protest →</a>'},
-    '3':{file:'protest',title:'The Protest.',side:'Flagship case statement',copy:'The case stated around the patient’s protest, the still-open information state, and whether the identified shortfall was resolved clinically or documentarily.',cls:'three',next:'<a href="./">← Back to the learning room</a>'}
+    '3':{file:'protest',title:'The Protest.',side:'Flagship case statement',copy:'The case stated around the patient’s protest, the still-open information state, and whether the identified shortfall was resolved clinically or documentarily.',cls:'three',next:'<a href="./lecture.html?lecture=4">Continue to Lecture 4: The Small Network →</a>'},
+    '4':{file:'small-network.md',title:'The Small Network.',side:'Continuity and provenance',copy:'Same patient, same GP, same neurologist: how one authoritative information state remained durable despite continuity, proximity, and repeated encounters.',cls:'four',next:'<a href="./">← Back to the learning room</a>'}
   };
   const cfg=configs[lecture];
 
@@ -131,7 +134,7 @@ a{color:inherit}
   const slugify=s=>s.toLowerCase().replace(/<[^>]*>/g,'').replace(/&[a-z0-9#]+;/gi,'').replace(/[^a-z0-9\s-]/g,'').trim().replace(/\s+/g,'-').replace(/-+/g,'-');
 
   try{
-    const r=await fetch('./'+cfg.file+'?v=20260923',{cache:'no-store'});
+    const r=await fetch('./'+cfg.file+'?v=20261001',{cache:'no-store'});
     if(!r.ok)throw new Error('HTTP '+r.status+' while loading '+cfg.file);
     const md=await r.text();
     if(!window.marked)throw new Error('Markdown renderer did not load.');
