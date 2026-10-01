@@ -10,7 +10,9 @@ So what is the case?
 
 The core documentary proposition is not that Parkinsonism was missed. Parkinsonism was recognised, and the record treats that recognition as substantial and sophisticated. The narrower contention is that a broader clinical object entered specialist care: painful feet, abnormal gait, increasing tone and stiffness, inability to relax, toe phenomena, movement-initiation difficulty, deteriorating dexterity and functional decline. Neurology then correctly identified severe young-onset Parkinsonism and itself recorded a dystonic-looking lower limb. But part of that same lower-limb territory—the painful, structural and burning foot material—came to occupy a separate explanatory track before the surviving record shows an equivalently detailed evidential bridge demonstrating why that division should bear the longitudinal weight it later acquired.
 
-The thesis is therefore about **recognition followed by decomposition, followed by inheritance**.
+The thesis is therefore about **recognition followed by decomposition, followed by authoritative persistence inside a small continuous clinical network**.
+
+That small-network fact now has to be held from the beginning. This is not a story in which one neurologist wrote a document and disappeared while strangers inherited it across remote institutions. The same patient remained in care, the same GP remained involved from April 2017 onward, and the same neurologist remained clinically beside the synthesis he had created. The later movement-disorders nurse entered that already-established local network. The fragmentation question therefore arises **despite continuity**, not because continuity was absent.
 
 That distinction matters enormously. A crude formulation would say: “Doctors missed dystonia,” or “neuropathy was wrong,” or “PRKN should obviously have been diagnosed.” The document deliberately rejects those formulations. The stronger question is: **how did an integrated problem become a divided problem; what evidence justified the division; what authority did the resulting representation acquire; and what happened when later evidence repeatedly crossed the line that had been drawn?**
 
@@ -20,7 +22,7 @@ And there is an important consequence. We must distinguish two realities through
 
 The first is the underlying clinical reality: what mechanisms actually caused which symptoms.
 
-The second is the documentary representation of that reality: what the records said the problem was, what categories were created, which services inherited them, and which questions remained active.
+The second is the documentary representation of that reality: what the records said the problem was, what categories were created, which services worked within them, which actors remained beside the original formulation, and which questions remained active.
 
 Those are not the same thing.
 
@@ -526,7 +528,7 @@ Preserved uncertainty.
 
 That comparator weakens any allegation that the clinician was incapable of analytical reasoning or incapable of documenting uncertainty.
 
-But it strengthens a narrower question: why does the chronic lower-limb pathway more often show **updating within an inherited model**, whereas the fresh shoulder problem shows proposition-by-proposition model construction?
+But it strengthens a narrower question: why does the chronic lower-limb pathway more often show **updating within an established model**, whereas the fresh shoulder problem shows proposition-by-proposition model construction?
 
 That is the distinction the document ultimately protects.
 
@@ -592,7 +594,7 @@ This is serious contrary evidence against any claim that the model became comple
 
 The document’s conclusion is therefore carefully narrowed:
 
-**the inherited architecture was permeable, not frozen.**
+**the established architecture was permeable, not frozen.**
 
 What remains in issue is that these later developments are easier to identify as proposition-specific updates than as a complete reconstruction of the parent model.
 
@@ -1666,7 +1668,7 @@ The case has force precisely where it honours those distinctions.
 
 Its strongest proposition is not that every disputed clinical judgment was wrong.
 
-It is that an early authority-bearing representation appears to have become more durable than the visible evidence establishing the independence of the lower-limb categories within it; that later evidence repeatedly supplied reasons to test those boundaries; and that the record shows the management and inheritance of the resulting architecture more clearly than it shows repeated independent reconstruction of the architecture from first principles.
+It is that an early authority-bearing representation appears to have become more durable than the visible evidence establishing the independence of the lower-limb categories within it; that later evidence repeatedly supplied reasons to test those boundaries; and that the record shows the management, repetition and continued use of the resulting architecture more clearly than it shows repeated independent reconstruction of the architecture from first principles.
 
 The defence remains substantial.
 
