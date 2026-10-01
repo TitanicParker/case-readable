@@ -398,6 +398,78 @@ This is one of the most important anti-simplification devices in the whole formu
 
 ---
 
+# The missing triangle — genotype, phenotype and pharmacology
+
+The record now supports one further question which had previously been distributed across separate sections rather than named as a single problem.
+
+The service was not only trying to identify **what disease this was**. It was also encountering evidence about **what form that disease took in this patient** and **how that phenotype behaved under treatment**.
+
+Those are three related but distinct objects:
+
+- **genotype / aetiological hypothesis** — very-young-onset Parkinsonism, autosomal-recessive reasoning, PARK2/PRKN and other genetic possibilities;
+- **phenotype** — marked rigidity and bradykinesia, an almost dystonically unusual gait, a distal lower limb described as suggestive of dystonic posture, toe posture/clawing, painful abnormal feet and genuine structural pathology;
+- **pharmacology** — later improvement on neurological treatment, deterioration during procyclidine withdrawal, restless feet and worsening gait, rapid return of the outside-left-foot phenomenon, later OFF/dystonia reasoning and eventual dopaminergic effects on the painful distal territory.
+
+The key point is not that one drug response proves one mechanism.
+
+It does not.
+
+The point is that treatment-state changes can function as **phenotype information**.
+
+A medication is altered.
+
+The body changes.
+
+The gait changes.
+
+The feet change.
+
+A previously separated distal phenomenon moves with neurological treatment state.
+
+That does not tell us, by itself, whether a corn was dystonic, structural, neuropathic or mixed.
+
+But it does create a new question:
+
+> **What lower-limb phenotype is revealing itself through treatment-state change?**
+
+This is where the 2004 history becomes especially important.
+
+The 2017 synthesis records a possible symptom onset around thirteen years earlier, with early bodily tension/posturing and later foot problems before the severe Parkinsonian syndrome was recognised. The GP referral then presents the 2017 clinical object as feet + toe clawing + gait + tone + initiation difficulty + deteriorating function.
+
+The proper retrospective question is therefore not merely:
+
+> Was there some dystonia in a patient with Parkinsonism?
+
+It is:
+
+> **How prominent was dystonia across the actual disease phenotype, particularly in the lower limbs, and was the painful foot/posture/gait complex one important expression or mechanical consequence of that phenotype?**
+
+The present record does not answer that question conclusively.
+
+It does, however, contain the ingredients from which an expert could answer it.
+
+This produces a new internal comparator:
+
+> **The genotype was being theorised while the phenotype through which that genotype might be expressing itself was not documented at equivalent relational resolution.**
+
+And pharmacology later supplied repeated opportunities to test that phenotype.
+
+That is why the emerging expert question is not simply genetic and not simply therapeutic.
+
+It is a **genotype–phenotype–pharmacology reconstruction**:
+
+> **Given the unusually early onset, the dystonic-looking lower-limb findings, the structural foot disease and the subsequent treatment-state behaviour, what movement phenotype was actually present across the disease course, how much of it was dystonic, and what treatment consequences followed from failing to resolve that relationship earlier?**
+
+If expert review ultimately concludes that lower-limb dystonia was a major component of the patient's disease, the significance would be substantial.
+
+It could mean that an important and potentially treatable component of the movement disorder sat inside the very clinical territory that was left operationally uncertain.
+
+That conclusion is not established by the documentary record alone.
+
+But the question is now unavoidable.
+
+---
+
 # PARK2/PRKN — an unresolved hypothesis that was real at the time
 
 We now come to the genetic branch.
@@ -1605,6 +1677,8 @@ Real structural foot disease also existed.
 The clinical object was then partitioned.
 
 The central Parkinsonian and genetic branch received very high-resolution reasoning.
+
+What the record now makes additionally visible is a three-way asymmetry: the genotype was actively theorised, the lower-limb phenotype was incompletely integrated at relational level, and later pharmacology repeatedly generated information capable of testing the missing relationship.
 
 The overlapping painful, structural and possible peripheral branch remained more tentative.
 
