@@ -1,5 +1,11 @@
 # Adversarial stress-test
 
+## Controlling premise for this stress-test
+
+This lecture tests the case adversarially without weakening the patient-side reconstruction. Within this project, the pre-discharge Protest is stated affirmatively: the patient told the treating neurologist, during a teaching interaction with four medical students present, that his feet had not been dealt with. An external opponent may dispute proof, significance, or what reasonable practice required in response; that is an evidential challenge to be tested, not a reason for this lecture to revert to hypothetical language about whether the patient made the Protest.
+
+The same continuity rule applies throughout. The treating neurologist did not later inherit his own 2017 synthesis. He created it and remained clinically beside it. The same GP remained involved from April 2017 onward. References below to inheritance or later record use therefore concern particular propositions, services, or later readers—not a fictional chain of remote strangers replacing the founding actors.
+
 The governing question is not whether the hospital can tell a medically plausible story. It is whether, proposition by proposition, the hospital can produce an **evidential bridge** strong enough to answer the serious documentary case. The required sequence is therefore: raw evidence → established fact → documentary inference → serious proposition → hospital answer → evidential support for that answer → what weakens the proposition → what defeats it.
 
 This exercise is bounded by `lesson.md` and the lossless case formulation. No separate bundle of additional primary records accompanied this particular instruction. Where the formulation identifies an unresolved source gap, I therefore preserve it rather than assuming what an unseen primary record would show.
@@ -846,7 +852,7 @@ It would be materially defeated by a coherent evidential chain showing all or mo
 3. clinicians explicitly considered mixed and interacting mechanisms rather than converting coexistence into independence;
 4. the original partition was reasoned and documented rather than merely made operational;
 5. residual uncertainty had identified ownership, feedback routes and reopening triggers;
-6. later clinicians independently revisited the disputed relationship rather than merely inheriting its terminology;
+6. later clinicians or services independently revisited the disputed relationship rather than merely repeating its terminology, while the founding neurologist independently re-derived rather than merely maintained his own earlier formulation;
 7. the major boundary-crossing events were expressly integrated and were reasonably found not to alter the founding model;
 8. PRKN's unresolved status was properly tracked or later closed, and later terminology did not falsely imply etiological resolution;
 9. recurrent GP reintegrations were received and answered at the appropriate specialist level;
