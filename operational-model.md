@@ -1,503 +1,562 @@
-# Lecture 5 — The Operational Model
+# Lecture 5 — The Missing Phenotype
 
-This lecture asks one question:
+This lecture is about the proposition that would most radically alter the meaning of the 2017 record.
 
-> **What exactly became operational in the 2017 discharge synthesis?**
+Not whether dystonia was present.
 
-The earlier lectures explain how an integrated feet–gait–tone problem was recognised, decomposed, protested, documented and carried forward. This lecture focuses on the point where that representation became treatment.
+Neurology already used dystonic language.
 
-The key phrase is:
+The deeper question is:
 
-> **Plan/Recommendations: As per above.**
+> **Was dystonia a major or predominant component of the patient's actual disease phenotype, particularly in the lower limbs, long before the hospital converted the presentation into a broad Parkinsonian framework?**
 
-That sentence imports the reasoning above it into the care plan.
+If independent movement-disorders review ultimately answers that question yes, the consequence is not merely a better retrospective label.
 
----
+It would test the entire architecture built in 2017.
 
-# 1. The case was recognised as unusually young and unusually complex
+That is why the issue has to be handled with precision.
 
-The discharge synthesis did not treat this as ordinary late-onset Parkinson's disease. It recorded very-young-onset Parkinsonism, marked rigidity and bradykinesia, unusual symmetry, a striking gait, a distal lower-limb appearance suggestive of dystonic posture rather than true foot drop, structural foot abnormalities and a history reaching back potentially to about 2004.
+The record does not yet prove dystonia predominance.
 
-It also explored autosomal-recessive disease, PRKN/PARK2 and other monogenic possibilities.
-
-So the later treatment decisions were not made because complexity was invisible.
-
-They were made after complexity had been recognised.
+It does show that the question was available.
 
 ---
 
-# 2. The document explicitly asks whether genotype needs to be resolved now
+# 1. The disease trajectory was already old when Neurology first saw it
 
-The genetics section asks whether a firm genetic diagnosis would actually change management and says that, in most cases, it usually would not.
+By 2017, the hospital's own synthesis was contemplating an onset roughly thirteen years earlier, around 2004.
 
-But it also acknowledges that a genetic diagnosis might provide information about the underlying neuropathological form, prognosis and possibly **levodopa sensitivities**.
+The early history included bodily and leg tension, posturing, later foot problems, abnormal gait, loss of dexterity and progressive motor dysfunction.
 
-That distinction matters.
+In 2026, if the current genotype and phenotype are ultimately reconstructed as one continuous PRKN disease process extending back to that period, the relevant object is not a brief 2017 episode.
 
-The document does not say genotype is irrelevant.
+It is a disease trajectory of more than two decades.
 
-It says genotype may not matter enough to immediate management to justify resolving it now.
+That reconstruction remains expert-dependent.
 
-That is a deliberate decision about the value of knowing.
+But the 2017 clinicians already knew they were looking at a very young, long-evolving and highly unusual movement disorder.
 
 ---
 
-# 3. “I am not a movement disorders neurologist” is the control point
+# 2. Primary care sent a high-dimensional trajectory
 
-The synthesis then states, in substance:
+The GP referral did not send:
+
+> Parkinson's disease plus a foot problem.
+
+It sent a relational object.
+
+The primary-care trajectory contained:
+
+- painful abnormal feet;
+- toe clawing/postural abnormality;
+- abnormal gait;
+- markedly increased tone;
+- stiffness;
+- difficulty initiating movement;
+- inability to relax normally;
+- deteriorating dexterity;
+- and functional decline.
+
+The question remained open.
+
+Feet, gait, tone and movement were travelling together into Neurology.
+
+That matters because a trajectory contains relationships.
+
+It says not merely what abnormalities exist, but what has been evolving together.
+
+---
+
+# 3. The hospital intake representation was lower-dimensional
+
+The hospital necessarily compressed the referral.
+
+The shorter operative presentation foregrounded:
+
+- difficulty initiating movement;
+- stiffness;
+- increased tone;
+- bradykinesia;
+- reduced dexterity;
+- balance;
+- and gait.
+
+Those facts were real.
+
+But the richer genealogy of painful abnormal feet, toe posture, gait, tone and long evolution no longer travelled with equal salience.
+
+This is the first crucial transformation:
+
+> **high-dimensional trajectory → lower-dimensional syndrome representation**
+
+The feet were not erased.
+
+They reappeared.
+
+But facts can survive while relationships disappear.
+
+The question is whether the compression removed precisely the relationships required to recognise the phenotype.
+
+---
+
+# 4. What Neurology saw looked bizarre because the phenotype was not ordinary
+
+Neurology correctly recognised severe very-young-onset Parkinsonism.
+
+But the presentation was unusual.
+
+The record contains:
+
+- marked rigidity and bradykinesia;
+- unusual symmetry;
+- very little tremor;
+- a strikingly abnormal gait;
+- a foot-drop-like appearance described as suggestive of dystonic posture rather than true foot drop;
+- a left lower limb kicking outward;
+- and a DAT request describing the walk in dystonic terms.
+
+The service therefore saw a bizarre Parkinsonian presentation.
+
+The crucial question is what it did with the bizarre part.
+
+Did dystonia remain an observed feature?
+
+Or was its prominence, distribution and relationship to the longstanding lower-limb history actually phenotyped?
+
+Those are different things.
+
+---
+
+# 5. Presence is not predominance
+
+This distinction should govern the whole lecture.
+
+A record can show that dystonia was noticed without answering:
+
+> **How much of the disease was dystonic?**
+
+That requires a different level of inquiry.
+
+The relevant questions include:
+
+- Was dystonia an incidental accompaniment or a central feature?
+- Was it disproportionately lower-limb?
+- Was the early "tension" history dystonic?
+- Were the toe postures dynamic?
+- Did dystonia alter loading and structural foot pathology?
+- Was pain partly generated or amplified by sustained abnormal posture?
+- Did gait abnormality reflect an important dystonic component?
+- Did the phenotype change with treatment state?
+
+The surviving record does not visibly answer those questions at the same resolution at which it discusses Parkinsonian syndrome and genetics.
+
+---
+
+# 6. The potentially missing object is a PRKN phenotype, not merely a PRKN genotype
+
+The final synthesis became sophisticated enough to suspect PRKN/PARK2.
+
+But genotype is only one layer.
+
+The clinically important question is:
+
+> **What did PRKN disease look like in this patient?**
+
+If later expert reconstruction establishes that this was a PRKN phenotype in which lower-limb dystonia was a major or predominant manifestation, that would materially change the meaning of the 2017 distal problem.
+
+The painful feet would no longer sit comfortably as merely an adjacent structural or peripheral territory.
+
+They would have to be reconsidered inside a disease phenotype in which dystonia may have been central.
+
+That conclusion is not established by the record alone.
+
+But the record contains enough to make it a serious expert question.
+
+---
+
+# 7. The sophistication of the synthesis may have caught up with the disease concept before the examination caught up with the phenotype
+
+This is the core asymmetry.
+
+The final discharge document became increasingly sophisticated about:
+
+- very-young-onset disease;
+- autosomal-recessive inheritance;
+- PRKN/PARK2;
+- other monogenic possibilities;
+- genetics;
+- prognosis;
+- levodopa sensitivity;
+- and future testing.
+
+But sophistication in theory is not the same as sophistication in examination.
+
+The question is:
+
+> **Did the calibre of the phenotype-directed investigation ever reach the calibre of the etiological synthesis?**
+
+The repository's earlier formulation remains exact:
+
+> **The synthesis may have outrun the examination.**
+
+Lecture 5 sharpens it:
+
+> **The etiological model may have become sophisticated enough to suspect PRKN before the clinical examination became sophisticated enough to determine what the PRKN phenotype actually was in the lower limbs.**
+
+---
+
+# 8. “I am not a movement disorders neurologist” belongs exactly here
+
+The discharge synthesis expressly states, in substance:
 
 > **I am not an expert on these conditions (I am not a movement disorders neurologist).**
 
-This is not a confession of incompetence.
+This sentence is not an accusation.
 
-It is an explicit recognition of a specialist-domain limit.
+It is a recognised expertise boundary.
 
-Its importance comes from where it sits: between detailed PRKN/monogenic reasoning, acknowledgement that genotype may matter to levodopa sensitivity, discussion of gene–phenotype uncertainty, and the transition into treatment.
+But the unresolved question was itself a movement-phenomenology question:
 
-The question is therefore:
+- dystonia versus rigidity;
+- fixed versus dynamic posture;
+- lower-limb distribution;
+- toe posture;
+- gait mechanics;
+- painful loading;
+- treatment-state behaviour;
+- mixed structural and neurological mechanisms.
 
-> **Once the author recognised that the case raised movement-disorders questions beyond his own specialist expertise, what mechanism ensured that the unresolved lower-limb phenotype received movement-disorders-level characterisation before the treatment architecture was fixed?**
+The central control question therefore becomes:
 
-That is the role this sentence plays in the case.
+> **Once the author recognised that the case exceeded his own movement-disorders expertise, what mechanism ensured that the phenotype itself received movement-disorders-level examination before the case was closed into a durable model?**
+
+The answer may exist.
+
+The documentary record must show it.
 
 ---
 
-# 4. The document moves from unresolved cause to a broad treatment framework
+# 9. The foot separation becomes much more consequential if dystonia was predominant
 
-The transition into therapy is explicit:
+The final synthesis allows the leg and foot symptoms to be:
 
-> **Whatever form and whatever genetic cause is the cause, the question which is undoubtedly the most important is as regards therapy.**
+> **completely separate**
 
-The service moves from:
+or perhaps secondary peripheral neuropathy.
 
-> What exact disease form is this?
+It concludes:
+
+> **Not clear.**
+
+Podiatry becomes the operational destination for the structural foot problem.
+
+That architecture is much easier to defend if dystonia was a secondary feature of an otherwise conventional Parkinsonian syndrome.
+
+It becomes much harder to defend if the true phenotype was substantially dystonic and lower-limb dominant.
+
+Because then the separated territory may not have been peripheral to the neurological disease.
+
+It may have contained a major expression of it.
+
+That is why predominance matters.
+
+---
+
+# 10. What a finding of predominant dystonia would destabilise
+
+No motive needs to be inferred.
+
+The institutional stakes are visible without attributing intention.
+
+A later expert finding that dystonia was a major or predominant phenotype would potentially force re-examination of:
+
+1. **The intake compression**  
+   Did the hospital's lower-dimensional problem representation discard relationships necessary to identify the phenotype?
+
+2. **The adequacy of the examination**  
+   Was the lower limb studied at a movement-disorders level proportionate to the unusual presentation?
+
+3. **The meaning of “Not clear”**  
+   Was this legitimate residual uncertainty after adequate investigation, or uncertainty produced by incomplete phenotyping?
+
+4. **The separation of the feet**  
+   Was painful distal disease sufficiently justified as independent/peripheral?
+
+5. **The Podiatry pathway**  
+   Was mechanical treatment appropriate but incomplete because the neurological driver was not characterised?
+
+6. **The treatment strategy**  
+   Was dopaminergic restraint individualised against the actual phenotype?
+
+7. **The interpretation of later pharmacology**  
+   Should procyclidine withdrawal, OFF phenomena, toe curling and Sinemet response have triggered reconstruction earlier?
+
+8. **The later complaint response**  
+   Was the broad statement “we have known that he has Parkinson's” too coarse to answer the phenotype complaint?
+
+9. **The governance validation**  
+   Did later review test the original phenotype question independently, or validate the architecture that had already excluded it?
+
+That is why the phenotype question has such structural force.
+
+---
+
+# 11. Structural stakes are not evidence of deliberate avoidance
+
+It would be wrong to jump from:
+
+> a finding would be damaging to the hospital's historical account
 
 to:
 
-> What broad treatment strategy follows from the Parkinsonian syndrome?
+> therefore clinicians intentionally avoided finding it.
 
-The answer is familiar: levodopa or dopamine agonists would ordinarily be used, but because of the patient's very young age they should be used with extreme caution and deferred for as long as possible.
+The record does not establish that motive.
 
-The broad Parkinsonian diagnosis is therefore treated as sufficient to generate a treatment strategy even though the deeper disease identity remains unresolved.
+The proper proposition is narrower and stronger:
 
-That is the first operational compression.
+> **Once an institutional account has been built around a broad Parkinsonian framework with a separated distal problem, establishing later that dystonia was the predominant phenotype would require reconstruction of multiple downstream decisions that depended on that framework.**
 
----
+That creates institutional stakes.
 
-# 5. The missing middle layer is phenotype
-
-The clinical hierarchy is:
-
-**Genotype / cause**  
-What disease is this biologically?
-
-↓
-
-**Phenotype**  
-How is that disease expressing itself in this individual patient?
-
-↓
-
-**Pharmacology**  
-What treatment modifies which manifestations, at what dose, with what risks?
-
-The discharge summary spends substantial intellectual energy on genotype and disease class.
-
-It also has a broad pharmacological position: dopaminergic treatment will probably be required, but exposure should be minimised because of age and adverse-effect risk.
-
-The incompletely resolved layer is the one in the middle.
-
-> **What exactly is the phenotype being treated?**
-
-How prominent is dystonia?
-
-What is the relationship between the dystonic-looking lower limb and the painful feet?
-
-How do toe posture, gait, tone, loading and structural disease relate?
-
-Which painful phenomena belong to the movement disorder and which do not?
-
-Mixed mechanisms are entirely possible.
-
-But treatment cannot be fully individualised unless the phenotype is characterised well enough to know what the treatment target actually is.
+It does not prove conscious suppression.
 
 ---
 
-# 6. The same document places the painful distal territory outside the central treatment model
+# 12. The Protest now acquires a biological meaning it did not need to possess at the time
 
-The synthesis records a distal lower-limb appearance suggestive of dystonic posture.
-
-It also records longstanding painful feet and structural abnormalities.
-
-Yet the leg and foot symptoms are allowed to be **“completely separate”**, perhaps secondary peripheral neuropathy, and ultimately **“Not clear.”**
-
-Podiatry becomes a destination.
-
-The issue is not that this separation was necessarily wrong.
-
-The issue is what earned it.
-
-The surviving record does not clearly show a movement-disorders-level reconstruction joining:
-
-- dystonic posture;
-- painful feet;
-- toe posture;
-- gait;
-- tone;
-- loading;
-- structural pathology;
-- and treatment responsiveness.
-
-So the same document contains two propositions:
-
-> the lower limb looks dystonic;
-
-and
-
-> the painful distal territory may be separate.
-
-The evidential bridge between them remains the missing object.
-
----
-
-# 7. The Protest identifies the unresolved territory before closure
-
-Before the final synthesis becomes portable, the patient says:
+The patient said:
 
 > **You have not dealt with my feet.**
 
-He is not diagnosing dystonia.
+He did not need to know the word dystonia.
 
-He is not demanding levodopa.
+He did not need to know PRKN.
 
-He is not rejecting Podiatry.
+He did not need to understand genotype–phenotype relationships.
 
-He is identifying incompleteness in the very territory whose relationship remains unresolved.
+The importance of the Protest is that it pointed to the clinical territory whose phenotypic status remained unresolved.
 
-That changes the status of the uncertainty.
+If later expert analysis concludes that lower-limb dystonia was in fact a central manifestation of the disease, the patient may have identified experientially the part of the phenotype the system had failed to characterise.
 
-> **“Not dealt with”** is a statement about process.
+The Protest remains a completeness challenge.
 
-> **“Not clear”** is a statement about result.
-
-The first says the inquiry is incomplete.
-
-The second sounds like the inquiry has reached a legitimate uncertain endpoint.
-
-The central question is therefore:
-
-> **What work justified converting an expressly identified area of unfinished inquiry into an authorised uncertain state?**
+The later biology may explain why that completeness challenge mattered so much.
 
 ---
 
-# 8. Treatment risk becomes operational before treatment benefit is fully phenotyped
+# 13. The genotype reasoning does not rescue the missing phenotype
 
-The discharge summary develops a detailed risk model for dopamine replacement in a very young patient.
+The discharge summary asks whether genetic confirmation would alter management.
 
-It anticipates dyskinesia, sensitivity to adverse effects, impulse-control problems and other long-term complications.
+It acknowledges that genotype might inform prognosis and levodopa sensitivities.
 
-That risk model is specific enough to generate a treatment decision:
+It considers waiting until gene–phenotype knowledge improves.
 
-> **avoid or delay levodopa and dopamine agonists for as long as possible.**
+Then it moves to therapy:
 
-But the patient-specific benefit model is less clearly developed.
+> **Whatever form and whatever genetic cause is the cause...**
 
-The document does not visibly answer:
+This is a rational abstraction only if the broad syndrome-level model is clinically sufficient.
 
-- how much of the lower-limb disability is dystonic;
-- how much of the foot posture is dopamine-responsive;
-- how much of the gait abnormality is dopamine-responsive;
-- how much of the painful lower-limb state belongs to the movement disorder;
-- or what undertreatment would look like in this individual patient.
+But if phenotype determines:
 
-This creates the core asymmetry:
+- which manifestations are central;
+- which are dopamine-responsive;
+- how much dystonia contributes;
+- and what treatment target should be used,
 
-> **The record knows enough about the possible cost of dopaminergic treatment to minimise it, but does not visibly know enough about the complete phenotype to measure the cost of withholding it.**
+then genotype deferral cannot substitute for phenotype resolution.
 
-That is an expert question, not a documentary conclusion about what dose should have been prescribed.
+The broad diagnosis may tell you the drug class.
 
----
-
-# 9. “Low dose” only has meaning relative to a treatment target
-
-Professor Daniel Healy later records that the patient probably has PARK II and observes that PARK II patients can often manage for long periods with relatively low doses of dopamine replacement therapy, while becoming dyskinetic if over-used.
-
-That is not an instruction to commence levodopa immediately.
-
-It is a class-level statement about suspected PARK II pharmacology.
-
-But **“relatively low”** is relational language.
-
-Low relative to what?
-
-- ordinary Parkinson's dosing;
-- adverse-effect risk;
-- disease stage;
-- symptom burden;
-- functional target;
-- and the phenotype one is trying to control.
-
-A dose can only be judged low, adequate or excessive against some understanding of what it is supposed to accomplish in the individual patient.
-
-The question is therefore not whether a low-dose strategy was inherently wrong.
-
-It is:
-
-> **What patient-specific phenotype had been defined well enough to determine whether low dopamine exposure represented prudent treatment or undertreatment?**
+It does not necessarily tell you what the drug needs to treat.
 
 ---
 
-# 10. The broad Parkinson's frame can identify the drug class without resolving the phenotype
+# 14. The pharmacological strategy therefore depends on a phenotype baseline that is hard to find
 
-The later record says, in substance, that the service knew the patient had Parkinson's and knew it would be responsive to Sinemet or another dopaminergic treatment.
+The service developed a detailed model of the risks of dopamine replacement in a very young patient.
 
-That can be coherent at syndrome level.
+It anticipated dyskinesia and behavioural complications.
 
-Parkinsonism supplies the drug class.
+That risk model justified restraint.
 
-But it does not answer:
+But restraint is a trade-off.
 
-> **Which manifestations in this patient belong to the dopamine-responsive disease?**
+To understand the trade-off, the service also needs to understand the benefit being restrained.
 
-Knowing the drug class is not the same as knowing the phenotype.
+If dystonia was a major component of the lower-limb disease, then the relevant benefit was not simply generic improvement in bradykinesia.
 
-A broad Parkinson's framework can support:
+It may have included:
 
-> levodopa will probably help Parkinsonian symptoms.
+- posture;
+- gait;
+- toe control;
+- painful muscle activity;
+- loading;
+- and function.
 
-It cannot by itself establish:
+The documentary question is:
 
-> the painful feet are outside the Parkinsonian treatment target.
-
-That requires phenotypic discrimination.
-
----
-
-# 11. Deferring genotype and failing to phenotype can form a loop
-
-The rationale for deferring genotype is:
-
-> deeper etiological knowledge is unlikely to alter immediate management.
-
-But that rationale is secure only if the phenotype is already sufficiently characterised for management.
-
-Otherwise the reasoning becomes circular:
-
-> We do not need the genotype because the broad Parkinson's framework already tells us how to treat.
-
-> We do not fully reconstruct the distal phenotype because the broad Parkinson's diagnosis is already secure.
-
-> We then use the broad Parkinson's framework to decide what belongs inside and outside treatment.
-
-The unresolved phenotype never gets the opportunity to test whether the broad framework was therapeutically sufficient.
-
-That is the operational loop.
+> **Where was that patient-specific benefit model established before pharmacological restraint became the plan?**
 
 ---
 
-# 12. “As per above” is the lock
+# 15. Professor Healy's “relatively low doses” makes the missing baseline visible
 
-At the end of the synthesis:
+Professor Healy later thought the patient probably had PARK II and observed that PARK II patients can often manage for long periods with relatively low doses of dopamine replacement while becoming dyskinetic if over-used.
+
+That statement is not a prescription to start levodopa immediately.
+
+But “relatively low” presupposes a treatment target.
+
+Low relative to what level of disease control?
+
+Low relative to what phenotype?
+
+Low relative to which disabling manifestation?
+
+If the phenotype itself was not fully characterised, then dose restraint can be pharmacologically sophisticated while still being phenotypically under-specified.
+
+---
+
+# 16. “As per above” makes the unresolved phenotype operational
+
+The discharge synthesis ends:
 
 > **Plan/Recommendations: As per above.**
 
-That phrase imports everything above into the plan:
+That is the lock.
 
-- secure Parkinsonian diagnosis;
-- unresolved genotype;
-- deferred genetic testing;
-- expected eventual dopamine responsiveness;
-- deliberate dopamine-sparing strategy;
-- symptomatic alternatives first;
-- Podiatry for the feet;
-- possible peripheral/separate explanations;
-- “Not clear”;
-- and no visibly completed reconstruction of the dystonic-foot relationship.
+Everything above becomes the management state:
 
-No new synthesis occurs at the plan line.
+- broad Parkinsonian diagnosis;
+- sophisticated but unresolved genetic hypothesis;
+- acknowledged movement-disorders expertise limit;
+- incomplete distal phenotype reconstruction;
+- possible peripheral/separate foot interpretation;
+- Podiatry destination;
+- dopamine-sparing strategy;
+- and residual “Not clear.”
 
-The plan inherits the architecture already constructed.
+The document does not solve the phenotype before making the plan.
 
-That is why **“As per above”** is not clerical wording.
+It makes the plan out of the representation that already exists.
 
-It is the operational hinge.
+That is why “As per above” matters.
 
-> **As per above = act on the representation already created.**
+> **The unresolved phenotype does not remain merely unknown. It becomes operationally partitioned.**
 
 ---
 
-# 13. Uncertainty is no longer merely recorded
+# 17. Later pharmacology repeatedly reopens the omitted relationship
 
-If the document simply said:
+Post-discharge evidence then begins to behave as though the original boundary may not be stable.
 
-> we do not yet understand the foot relationship,
+Procyclidine and rasagiline produce substantial motor improvement.
 
-that would be one thing.
-
-But the uncertainty coexists with:
-
-- discharge;
-- medication sequencing;
-- deliberate levodopa deferral;
-- Podiatry routing;
-- follow-up structure;
-- and a portable specialist account.
-
-The uncertainty therefore begins doing work.
-
-It shapes what is treated centrally.
-
-It shapes what is treated elsewhere.
-
-It shapes what is deferred.
-
-It shapes what later readers may assume has already been neurologically considered.
-
-The founding uncertainty becomes a care architecture.
-
----
-
-# 14. Later pharmacology starts testing the architecture
-
-After discharge, treatment-state changes generate new biological information.
-
-Procyclidine and rasagiline are associated with major motor improvement.
-
-During procyclidine withdrawal:
+On procyclidine withdrawal:
 
 - tension builds;
 - the feet become restless;
 - walking deteriorates.
 
-The treating neurologist later records rapid return of the outside-left-foot phenomenon.
+The same neurologist later records rapid return of the outside-left-foot phenomenon.
 
-These observations do not prove that every historical foot symptom was dystonia.
+Later records include:
 
-They establish something narrower:
+- OFF/dystonia reasoning;
+- toe curling;
+- Parkinsonian lower-limb interpretation;
+- and dopaminergic effects on foot pain.
 
-> **a phenomenon inside the disputed foot territory co-varied with neurological treatment state.**
+None of that proves one exclusive mechanism.
 
-That is exactly the kind of information capable of testing the original partition.
+But each event asks the same question:
 
-The body begins challenging the operational model.
-
----
-
-# 15. By 2021 levodopa enters, but the target remains broad
-
-The first levodopa introduction is described as a very tiny dose.
-
-Subsequent notes pay close attention to dyskinesia, chorea, impulse-control risk, effective exposure and keeping the dose minimal.
-
-Again, the risk side is richly monitored.
-
-The enduring question is:
-
-> **What was levodopa being titrated against?**
-
-Was lower-limb dystonia an explicit target?
-
-Was morning foot pain a treatment-state marker?
-
-Were the painful feet used as part of dose adequacy?
-
-The later record eventually acknowledges that Sinemet helped morning pain.
-
-That makes the earlier absence of a clearly articulated lower-limb treatment target increasingly important.
+> **Was the lower-limb territory more central to the movement phenotype than the founding architecture allowed?**
 
 ---
 
-# 16. The strongest fair defence
+# 18. The 22-year / 13-year question belongs to the expert, not to hindsight rhetoric
 
-The strongest hospital answer is substantial.
+The mature expert question is temporal.
 
-Genetic testing can reasonably be deferred when it does not change immediate care.
+If the current genotype and phenotype can be reconstructed across approximately twenty-two years, and if the disease process had already been evolving for approximately thirteen years when Neurology first saw the patient, then:
 
-Young patients can reasonably be treated cautiously with levodopa.
+> **what proportion of that thirteen-year pre-Neurology trajectory was dystonic, and what would competent movement-phenotype examination in 2017 reasonably have been expected to identify?**
 
-Structural foot disease can coexist with Parkinsonism.
+That avoids retrospective contamination.
 
-Treatment response does not prove mechanism.
+The 2026 answer does not automatically become the 2017 standard.
 
-A general neurologist can appropriately treat Parkinsonism with colleague input and later specialist review.
+But the later answer can reveal what biological phenomenon was actually present in 2017 and therefore clarify what the contemporaneous examination had the opportunity to detect.
 
-Nothing in this lecture establishes that earlier levodopa was required.
+---
 
-Nothing establishes that dystonia caused all of the pain.
+# 19. The strongest fair hospital answer
 
-Nothing establishes that genetic testing itself would have prevented later harm.
+The hospital has a serious defence.
+
+The presentation was heterogeneous.
+
+Structural foot disease was real.
+
+The patient himself distinguished some foot pain from bodily tension.
+
+Dystonia was noticed.
+
+PRKN was considered.
+
+Treatment was active.
+
+The relationship among pain, dystonia, structure and Parkinsonism may genuinely have been uncertain.
+
+A later PRKN diagnosis does not prove that a movement-disorders specialist in 2017 would have classified dystonia as predominant.
+
+A later treatment response does not prove the mechanism of twenty years of pain.
+
+Those points must remain.
 
 The proposition is narrower:
 
-> **If dopaminergic treatment is deliberately constrained because of anticipated pharmacological risk, the adequacy of that decision depends in part on having characterised the phenotype well enough to understand the clinical benefit being constrained.**
+> **The record shows recognition of dystonic phenomenology, but it does not yet show an examination of sufficient depth to establish how prominent dystonia was across the long lower-limb phenotype before that territory was operationally separated.**
 
 ---
 
-# 17. What would defeat the proposition?
+# 20. What would defeat this essay's central proposition?
 
-The proposition would be materially weakened by evidence showing that, before or soon after discharge:
+The proposition would be materially weakened by evidence showing that:
 
-- a movement-disorders-level assessment explicitly characterised the lower-limb phenotype;
-- dystonia was assessed for prominence, distribution and treatment relevance;
-- pain, toe posture, gait, tone and structural loading were deliberately integrated;
-- the foot problem was reasonedly judged substantially independent;
-- treatment-state effects were monitored against defined phenotype targets;
-- and the levodopa-sparing strategy was individualised against those targets rather than applied at syndrome level alone.
+- the full GP feet–gait–tone trajectory was preserved as the operative neurological object;
+- a movement-disorders-level examination explicitly assessed the prominence and distribution of dystonia;
+- dynamic toe and foot posture were evaluated;
+- pain, dystonia, structural loading and gait were integrated;
+- a specialist concluded that dystonia was minor or unrelated to the painful foot problem;
+- and the later treatment strategy was explicitly built on that phenotype assessment.
 
-Independent expert evidence that none of those distinctions would reasonably have changed treatment timing, treatment choice or outcome would also materially weaken the proposition.
+Independent expert evidence that the lower-limb dystonia visible in 2017 would not reasonably have suggested a more prominent dystonic phenotype would also materially weaken the case.
 
 The theory remains falsifiable.
 
 ---
 
-# 18. The operational model
+# 21. The mature formulation
 
-The full chain is:
+The strongest formulation is not:
 
-> **Broad Parkinsonian diagnosis established**
+> The hospital knew dystonia was predominant and hid it.
 
-↓
+The record does not establish that.
 
-> **Exact genotype judged unlikely to alter immediate management**
+It is:
 
-↓
+> **A high-dimensional thirteen-year feet–gait–tone trajectory entered Neurology and was compressed into a lower-dimensional severe Parkinsonian representation. Neurology recognised dystonic-looking lower-limb phenomenology, and the final synthesis became sophisticated enough to suspect PRKN/PARK2, but the surviving examination does not show equivalent sophistication in determining how prominent dystonia was within the patient's actual phenotype. The same synthesis expressly acknowledged a movement-disorders expertise limit, permitted the painful distal territory to remain “Not clear” or separate, and then operationalised that representation through “As per above.” If later expert reconstruction establishes that lower-limb dystonia was a major or predominant manifestation of longstanding PRKN disease, that finding would not merely refine the diagnosis; it would reopen the adequacy of the founding compression, examination, separation, treatment strategy and subsequent institutional validation.**
 
-> **Movement-disorders expertise limit acknowledged**
+That is why the phenotype question matters.
 
-↓
+Not because its answer can be assumed.
 
-> **Lower-limb phenotype remains incompletely integrated**
-
-↓
-
-> **Dopaminergic treatment expected eventually but deliberately minimised**
-
-↓
-
-> **Painful feet remain “Not clear” / possibly separate / peripheral and are routed toward Podiatry**
-
-↓
-
-> **Plan/Recommendations: As per above**
-
-↓
-
-> **The unresolved representation becomes the care architecture**
-
-↓
-
-> **Later pharmacological evidence repeatedly crosses the boundary**
-
-↓
-
-> **Local treatment adaptation appears more clearly than global phenotype reconstruction**
-
-That is the operational model.
-
-The central question is:
-
-> **Did a broad Parkinson's framework become sufficient to govern treatment before the service had characterised the phenotype deeply enough to know what the treatment was being withheld from?**
-
-And the shortest formulation is:
-
-> **The service may have known enough about the disease category to fear the pharmacology, while not yet knowing enough about the individual phenotype to measure the cost of pharmacological restraint.**
+Because its answer determines how much of the architecture survives.
