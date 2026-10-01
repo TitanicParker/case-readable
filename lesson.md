@@ -1662,6 +1662,36 @@ They remain for experts, institutional evidence and ultimately legal determinati
 
 ---
 
+# The patient's understanding is part of the clinical object
+
+The patient was not merely the subject of the record. He was one of the people who had to use the record to understand what was happening to him.
+
+The 2017 synthesis describes him as having a “very prescient understanding,” says he would tell the team when too much information was being given, and records that he would receive the letter. The later 2025 response goes further: the neurologist explains that his long letters were intended as a resource for the person himself and as a way of bridging the gap between **what is said or intended** and **what is heard or understood**.
+
+Those statements make patient understanding an explicit purpose of the documentary system.
+
+The question is therefore not only:
+
+> **Did the representation organise care accurately enough?**
+
+It is also:
+
+> **What understanding of his own body did the representation make available to the patient?**
+
+If the feet–gait–tone relationship was incompletely reconstructed, the consequence was not confined to referral pathways. The patient could be taught to understand his own experience through the same partition: Parkinson's centrally; painful feet separately; neuropathy possibly; Podiatry elsewhere; genotype interesting but not immediately important; levodopa something to delay; residual uncertainty described as “Not clear.”
+
+That may have been an entirely good-faith representation. But a coherent representation can still be incomplete. And because specialist explanations carry authority, an incomplete model can narrow the patient's own ability to ask the next question.
+
+This gives the Protest an additional function:
+
+> **“You have not dealt with my feet” was the patient trying to preserve a relationship in the clinical object before the authoritative explanation taught everyone—including him—to treat that relationship as uncertain or separate.**
+
+The mature case must therefore preserve a distinction between **being informed** and **being given a sufficiently complete model from which to understand oneself**.
+
+That distinction belongs inside the clinical case, not outside it.
+
+---
+
 # Closing synthesis
 
 The strongest formulation surviving the whole record is therefore more restrained—and, for that reason, more powerful—than a simple missed-diagnosis allegation.
